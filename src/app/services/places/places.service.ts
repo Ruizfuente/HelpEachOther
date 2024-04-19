@@ -1,30 +1,36 @@
-// import { HttpClient } from '@angular/common/http';
-// import { Injectable } from '@angular/core';
-// import { environment } from '../../../environments/environment';
-// import { Observable } from 'rxjs';
-// import { AppEndpoints } from '../../app-endpoints';
-// import { PlaceTypes } from '../../resources/enums/placeTypes.enum';
-// import { Place } from '../../models/place.model';
+import { Injectable } from '@angular/core';
+import { Place } from '../../models/place.model';
+import { environment } from '../../environments/environment';
+import * as mockedPlaces from '../../resources/mockedData/places.json';
 
-// @Injectable({
-//   providedIn: 'root'
-// })
-// export class PlacesService {
+@Injectable({
+  providedIn: 'root'
+})
+export class PlacesService {
+  places: Place[];
+  mocked_places_url: string = '/assets/students.json';
 
-//   constructor(
-//     // private http: HttpClient
-//   ) { }
+  constructor(
+  ) {
+  }
 
-//   private readonly url = environment.api + 'api';
+  private readonly url = environment.api + 'api';
 
-//   getAllValidPlaces(ratio: number, x: number, y: number, header: any = null): Place{
-//     let place: Place = new Place(
-//       12,
-//       "Al punto burger and Beer",
-//       "Lugar donde comer o cenar tranquilamente, bien iluminado y con un servicio muy educado.",
-//       PlaceTypes.FOOD, "10:00 - 17:00 L-D", 4.7, [51.503, -0.08], 2.4
-//     );
-//     return place;
-//   }
+  public getAllValidPlaces(ratio: number, x: number, y: number, filter: any = null): any[] {
+    // Filtering by proximity
+    this.places = mockedPlaces.places;
+    let places_filtered = this.places.filter(p =>
+      p.coordinates.latitude + ratio
+      && p.coordinates.longitude + ratio
+    )
+    // Filtering by text
+    if (filter) {
+      places_filtered = places_filtered.filter(p =>
+        p.name.toLocaleLowerCase().includes(filter)
+        || p.description.toLocaleLowerCase().includes(filter)
+      )
+    }
+    return places_filtered;
+  }
 
-// }
+}

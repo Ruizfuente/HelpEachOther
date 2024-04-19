@@ -1,0 +1,21 @@
+#map { 
+    height: 550px;
+    width: 100%;
+}
+.place-item{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    padding: 1rem;
+}
+.place-item:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);;
+}
+.place-item-header{
+    color:  rgb(255, 3, 58);
+    font-size: 27px;
+}
+.places-container{
+    height: 550px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
