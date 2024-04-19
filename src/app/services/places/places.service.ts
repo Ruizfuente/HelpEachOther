@@ -16,12 +16,13 @@ export class PlacesService {
 
   private readonly url = environment.api + 'api';
 
-  public getAllValidPlaces(ratio: number, x: number, y: number, filter: any = null): any[] {
+  public getAllValidPlaces(ratio: number, latitude: number, longitude: number, filter: any = null): any[] {
     // Filtering by proximity
+    debugger
     this.places = mockedPlaces.places;
     let places_filtered = this.places.filter(p =>
-      p.coordinates.latitude + ratio
-      && p.coordinates.longitude + ratio
+      (p.coordinates.latitude - latitude) < ratio 
+      && (p.coordinates.longitude - longitude) < ratio
     )
     // Filtering by text
     if (filter) {

@@ -15,7 +15,12 @@
     <div class="col-5 places-container">
         <diV *ngFor="let place of placesToShow" class="place-item">
             <p class="place-item-header">{{place.name}}</p>
-            <a>{{place.description}}</a>
+            <a>{{place.description}}</a> <br>
+            <a>{{place.date}}</a>
+            <!-- <img src="/src/assets/profile_pictures/image-{{place.user_id}}.png" alt="image"> -->
+            <img alt="My image name" src="./../../../assets/profile_pictures/image-{{place.user_id}}.png">
+            <!-- <img [src]="/src/assets/profile_pictures/image-1.png" /> -->
+
             <pre>{{place | json}}</pre>
         </diV>
     </div>

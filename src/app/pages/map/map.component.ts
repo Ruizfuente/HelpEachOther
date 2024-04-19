@@ -48,7 +48,6 @@ export class MapComponent {
   constructor(
     private placesService: PlacesService,
   ) {
-    this.placesToShow = this.placesService.getAllValidPlaces(0.1, 40.4177, -3.7042);
   }
 
   ngAfterViewInit(): void {
@@ -132,12 +131,19 @@ export class MapComponent {
     // map.addControl(searchControl);
   }
 
+  getPlacesToShow(){
+    debugger
+    let zoom = this.map.getZoom(); //16 aquivale a un radio de 0.002
+    this.placesToShow = this.placesService.getAllValidPlaces(5, 40.4177, -3.7042);
+  }
+
   drawPlacesToShow() {
+    this.getPlacesToShow();
     // Siguiendo: https://leafletjs.com/examples/custom-icons/
     let iconWidth = 60;
     this.placesToShow.forEach(place => {
       let curr_icon = L.icon({
-        iconUrl: `assets/icons/map-pin/${place.type.toString()}.png`,
+        iconUrl: `assets/icons/map-pin/${place.type}.png`,
         iconSize: [iconWidth, iconWidth],
         // shadowUrl: 'leaf-shadow.png',
         // shadowSize: [50, 64], // size of the shadow

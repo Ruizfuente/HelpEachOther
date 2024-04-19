@@ -1,0 +1,1144 @@
+{
+    "places": [
+        {
+            "id": 1,
+            "name": "Donar ropa",
+            "description": "Ayuda ofrecida: Donación de ropa para personas necesitadas.",
+            "type": "CLOTHES",
+            "date": "2024-04-19",
+            "coordinates": {
+                "latitude": 40.4188,
+                "longitude": -3.7021
+            },
+            "user_id": 12
+        },
+        {
+            "id": 2,
+            "name": "Ofrecer comida",
+            "description": "Ayuda ofrecida: Distribución de alimentos para familias en situación de vulnerabilidad.",
+            "type": "FOOD",
+            "date": "2024-04-19",
+            "coordinates": {
+                "latitude": 40.4175,
+                "longitude": -3.7038
+            },
+            "user_id": 5
+        },
+        {
+            "id": 3,
+            "name": "Acoger refugiados",
+            "description": "Ayuda ofrecida: Alojamiento temporal para personas refugiadas.",
+            "type": "ACCOMMODATION",
+            "date": "2024-04-19",
+            "coordinates": {
+                "latitude": 40.4163,
+                "longitude": -3.7057
+            },
+            "user_id": 28
+        },
+        {
+            "id": 4,
+            "name": "Ofrecer transporte",
+            "description": "Ayuda ofrecida: Transporte gratuito para personas mayores a centros médicos.",
+            "type": "TRANSPORT",
+            "date": "2024-04-19",
+            "coordinates": {
+                "latitude": 40.4150,
+                "longitude": -3.7051
+            },
+            "user_id": 19
+        },
+        {
+            "id": 5,
+            "name": "Donar medicamentos",
+            "description": "Ayuda ofrecida: Donación de medicamentos para personas sin recursos.",
+            "type": "MEDICINES",
+            "date": "2024-04-19",
+            "coordinates": {
+                "latitude": 40.4172,
+                "longitude": -3.7013
+            },
+            "user_id": 8
+        },
+        {
+            "id": 6,
+            "name": "Ofrecer comida",
+            "description": "Ayuda ofrecida: Reparto de comida caliente a personas sin hogar.",
+            "type": "FOOD",
+            "date": "2024-04-19",
+            "coordinates": {
+                "latitude": 40.4185,
+                "longitude": -3.7004
+            },
+            "user_id": 11
+        },
+        {
+            "id": 7,
+            "name": "Donar ropa",
+            "description": "Ayuda ofrecida: Donación de ropa de abrigo para el invierno.",
+            "type": "CLOTHES",
+            "date": "2024-04-19",
+            "coordinates": {
+                "latitude": 40.4192,
+                "longitude": -3.7030
+            },
+            "user_id": 24
+        },
+        {
+            "id": 8,
+            "name": "Acoger refugiados",
+            "description": "Ayuda ofrecida: Alojamiento temporal para familias refugiadas.",
+            "type": "ACCOMMODATION",
+            "date": "2024-04-19",
+            "coordinates": {
+                "latitude": 40.4178,
+                "longitude": -3.7059
+            },
+            "user_id": 16
+        },
+        {
+            "id": 9,
+            "name": "Ofrecer transporte",
+            "description": "Ayuda ofrecida: Transporte solidario para personas con movilidad reducida.",
+            "type": "TRANSPORT",
+            "date": "2024-04-19",
+            "coordinates": {
+                "latitude": 40.4161,
+                "longitude": -3.7029
+            },
+            "user_id": 29
+        },
+        {
+            "id": 10,
+            "name": "Donar medicamentos",
+            "description": "Ayuda ofrecida: Entrega de medicamentos a domicilio para personas mayores.",
+            "type": "MEDICINES",
+            "date": "2024-04-19",
+            "coordinates": {
+                "latitude": 40.4166,
+                "longitude": -3.7063
+            },
+            "user_id": 7
+        },
+        {
+            "id": 11,
+            "name": "Ofrecer comida",
+            "description": "Ayuda ofrecida: Reparto de alimentos para personas en situación de desamparo.",
+            "type": "FOOD",
+            "date": "2024-04-19",
+            "coordinates": {
+                "latitude": 40.4181,
+                "longitude": -3.7046
+            },
+            "user_id": 10
+        },
+        {
+            "id": 12,
+            "name": "Donar ropa",
+            "description": "Ayuda ofrecida: Recolección de ropa usada para ser donada a familias necesitadas.",
+            "type": "CLOTHES",
+            "date": "2024-04-19",
+            "coordinates": {
+                "latitude": 40.4179,
+                "longitude": -3.7019
+            },
+            "user_id": 25
+        },
+        {
+            "id": 13,
+            "name": "Acoger refugiados",
+            "description": "Ayuda ofrecida: Brindar alojamiento temporal a personas refugiadas que lo necesiten.",
+            "type": "ACCOMMODATION",
+            "date": "2024-04-19",
+            "coordinates": {
+                "latitude": 40.4180,
+                "longitude": -3.7035
+            },
+            "user_id": 14
+        },
+        {
+            "id": 14,
+            "name": "Donar medicamentos",
+            "description": "Ayuda ofrecida: Donación de medicamentos para centros de salud en zonas desfavorecidas.",
+            "type": "MEDICINES",
+            "date": "2024-04-19",
+            "coordinates": {
+                "latitude": 40.4177,
+                "longitude": -3.7042
+            },
+            "user_id": 21
+        },
+        {
+            "id": 15,
+            "name": "Ofrecer transporte",
+            "description": "Ayuda ofrecida: Transporte gratuito para personas con discapacidad.",
+            "type": "TRANSPORT",
+            "date": "2024-04-19",
+            "coordinates": {
+                "latitude": 40.4169,
+                "longitude": -3.7032
+            },
+            "user_id": 3
+        },
+        {
+            "id": 16,
+            "name": "Ofrecer comida",
+            "description": "Ayuda ofrecida: Comedor social para personas en situación de calle.",
+            "type": "FOOD",
+            "date": "2024-04-19",
+            "coordinates": {
+                "latitude": 40.4174,
+                "longitude": -3.7048
+            },
+            "user_id": 9
+        },
+        {
+            "id": 17,
+            "name": "Donar ropa",
+            "description": "Ayuda ofrecida: Ropa de abrigo para personas sin hogar.",
+            "type": "CLOTHES",
+            "date": "2024-04-19",
+            "coordinates": {
+                "latitude": 40.4186,
+                "longitude": -3.7026
+            },
+            "user_id": 13
+        },
+        {
+            "id": 18,
+            "name": "Acoger refugiados",
+            "description": "Ayuda ofrecida: Hogar temporal para refugiados recién llegados.",
+            "type": "ACCOMMODATION",
+            "date": "2024-04-19",
+            "coordinates": {
+                "latitude": 40.4171,
+                "longitude": -3.7020
+            },
+            "user_id": 26
+        },
+        {
+            "id": 19,
+            "name": "Ofrecer transporte",
+            "description": "Ayuda ofrecida: Servicio de transporte para personas mayores que viven solas.",
+            "type": "TRANSPORT",
+            "date": "2024-04-19",
+            "coordinates": {
+                "latitude": 40.4165,
+                "longitude": -3.7027
+            },
+            "user_id": 18
+        },
+        {
+            "id": 20,
+            "name": "Donar medicamentos",
+            "description": "Ayuda ofrecida: Entrega de medicamentos a domicilio para personas con movilidad reducida.",
+            "type": "MEDICINES",
+            "date": "2024-04-19",
+            "coordinates": {
+                "latitude": 40.4173,
+                "longitude": -3.7024
+            },
+            "user_id": 22
+        },
+        {
+            "id": 21,
+            "name": "Ofrecer comida",
+            "description": "Ayuda ofrecida: Reparto de comida caliente para personas sin hogar.",
+            "type": "FOOD",
+            "date": "2024-04-19",
+            "coordinates": {
+                "latitude": 40.4182,
+                "longitude": -3.7050
+            },
+            "user_id": 16
+        },
+        {
+            "id": 22,
+            "name": "Donar ropa",
+            "description": "Ayuda ofrecida: Donación de ropa de segunda mano para familias necesitadas.",
+            "type": "CLOTHES",
+            "date": "2024-04-19",
+            "coordinates": {
+                "latitude": 40.4168,
+                "longitude": -3.7023
+            },
+            "user_id": 29
+        },
+        {
+            "id": 23,
+            "name": "Acoger refugiados",
+            "description": "Ayuda ofrecida: Albergue para personas refugiadas en tránsito.",
+            "type": "ACCOMMODATION",
+            "date": "2024-04-19",
+            "coordinates": {
+                "latitude": 40.4176,
+                "longitude": -3.7010
+            },
+            "user_id": 20
+        },
+        {
+            "id": 24,
+            "name": "Donar medicamentos",
+            "description": "Ayuda ofrecida: Recolección de medicamentos para ser donados a hospitales de zonas necesitadas.",
+            "type": "MEDICINES",
+            "date": "2024-04-19",
+            "coordinates": {
+                "latitude": 40.4162,
+                "longitude": -3.7044
+            },
+            "user_id": 7
+        },
+        {
+            "id": 25,
+            "name": "Ofrecer transporte",
+            "description": "Ayuda ofrecida: Servicio de transporte para personas con dificultades de movilidad.",
+            "type": "TRANSPORT",
+            "date": "2024-04-19",
+            "coordinates": {
+                "latitude": 40.4170,
+                "longitude": -3.7041
+            },
+            "user_id": 1
+        },
+        {
+            "id": 26,
+            "name": "Ofrecer comida",
+            "description": "Ayuda ofrecida: Reparto de alimentos no perecederos a familias en situación de vulnerabilidad.",
+            "type": "FOOD",
+            "date": "2024-04-19",
+            "coordinates": {
+                "latitude": 40.4178,
+                "longitude": -3.7055
+            },
+            "user_id": 30
+        },
+        {
+            "id": 27,
+            "name": "Donar ropa",
+            "description": "Ayuda ofrecida: Ropa de abrigo para personas sin hogar durante el invierno.",
+            "type": "CLOTHES",
+            "date": "2024-04-19",
+            "coordinates": {
+                "latitude": 40.4173,
+                "longitude": -3.7016
+            },
+            "user_id": 17
+        },
+        {
+            "id": 28,
+            "name": "Acoger refugiados",
+            "description": "Ayuda ofrecida: Casa de acogida para personas refugiadas con niños.",
+            "type": "ACCOMMODATION",
+            "date": "2024-04-19",
+            "coordinates": {
+                "latitude": 40.4183,
+                "longitude": -3.7047
+            },
+            "user_id": 6
+        },
+        {
+            "id": 29,
+            "name": "Donar medicamentos",
+            "description": "Ayuda ofrecida: Recolección de medicamentos para ser enviados a países en crisis sanitaria.",
+            "type": "MEDICINES",
+            "date": "2024-04-19",
+            "coordinates": {
+                "latitude": 40.4171,
+                "longitude": -3.7039
+            },
+            "user_id": 2
+        },
+        {
+            "id": 30,
+            "name": "Ofrecer transporte",
+            "description": "Ayuda ofrecida: Servicio de transporte para personas mayores que viven solas.",
+            "type": "TRANSPORT",
+            "date": "2024-04-19",
+            "coordinates": {
+                "latitude": 40.4167,
+                "longitude": -3.7052
+            },
+            "user_id": 15
+        },
+        {
+            "id": 31,
+            "name": "Ofrecer comida",
+            "description": "Proporcionamos comidas calientes a personas necesitadas.",
+            "type": "FOOD",
+            "date": "2024-04-19",
+            "coordinates": {
+                "latitude": 40.1234,
+                "longitude": -3.4567
+            },
+            "user_id": 12
+        },
+        {
+            "id": 32,
+            "name": "Donar ropa",
+            "description": "Recogemos ropa para distribuirla entre personas sin hogar.",
+            "type": "CLOTHES",
+            "date": "2024-04-19",
+            "coordinates": {
+                "latitude": 39.9876,
+                "longitude": -2.3456
+            },
+            "user_id": 5
+        },
+        {
+            "id": 33,
+            "name": "Acoger refugiados",
+            "description": "Ofrecemos refugio temporal a personas refugiadas.",
+            "type": "ACCOMMODATION",
+            "date": "2024-04-19",
+            "coordinates": {
+                "latitude": 41.2345,
+                "longitude": -1.4321
+            },
+            "user_id": 8
+        },
+        {
+            "id": 34,
+            "name": "Ofrecer transporte",
+            "description": "Proporcionamos transporte gratuito a personas con discapacidad.",
+            "type": "TRANSPORT",
+            "date": "2024-04-19",
+            "coordinates": {
+                "latitude": 38.7654,
+                "longitude": -4.3210
+            },
+            "user_id": 15
+        },
+        {
+            "id": 35,
+            "name": "Donar medicamentos",
+            "description": "Distribuimos medicamentos gratuitos a aquellos que no pueden pagarlos.",
+            "type": "MEDICINES",
+            "date": "2024-04-19",
+            "coordinates": {
+                "latitude": 40.8765,
+                "longitude": -5.1234
+            },
+            "user_id": 20
+        },
+        {
+            "id": 36,
+            "name": "Ofrecer comida",
+            "description": "Proporcionamos comidas calientes a personas necesitadas.",
+            "type": "FOOD",
+            "date": "2024-04-19",
+            "coordinates": {
+                "latitude": 40.1234,
+                "longitude": -3.4567
+            },
+            "user_id": 12
+        },
+        {
+            "id": 37,
+            "name": "Donar ropa",
+            "description": "Recogemos ropa para distribuirla entre personas sin hogar.",
+            "type": "CLOTHES",
+            "date": "2024-04-19",
+            "coordinates": {
+                "latitude": 39.9876,
+                "longitude": -2.3456
+            },
+            "user_id": 5
+        },
+        {
+            "id": 38,
+            "name": "Acoger refugiados",
+            "description": "Ofrecemos refugio temporal a personas refugiadas.",
+            "type": "ACCOMMODATION",
+            "date": "2024-04-19",
+            "coordinates": {
+                "latitude": 41.2345,
+                "longitude": -1.4321
+            },
+            "user_id": 8
+        },
+        {
+            "id": 39,
+            "name": "Ofrecer transporte",
+            "description": "Proporcionamos transporte gratuito a personas con discapacidad.",
+            "type": "TRANSPORT",
+            "date": "2024-04-19",
+            "coordinates": {
+                "latitude": 38.7654,
+                "longitude": -4.3210
+            },
+            "user_id": 15
+        },
+        {
+            "id": 40,
+            "name": "Donar medicamentos",
+            "description": "Distribuimos medicamentos gratuitos a aquellos que no pueden pagarlos.",
+            "type": "MEDICINES",
+            "date": "2024-04-19",
+            "coordinates": {
+                "latitude": 40.8765,
+                "longitude": -5.1234
+            },
+            "user_id": 20
+        },
+        {
+            "id": 41,
+            "name": "Ofrecer comida",
+            "description": "Repartimos alimentos a familias necesitadas.",
+            "type": "FOOD",
+            "date": "2024-04-19",
+            "coordinates": {
+                "latitude": 39.5432,
+                "longitude": -3.9876
+            },
+            "user_id": 7
+        },
+        {
+            "id": 42,
+            "name": "Ofrecer transporte",
+            "description": "Servicio de transporte para personas mayores.",
+            "type": "TRANSPORT",
+            "date": "2024-04-19",
+            "coordinates": {
+                "latitude": 40.6543,
+                "longitude": -4.5678
+            },
+            "user_id": 19
+        },
+        {
+            "id": 43,
+            "name": "Acoger refugiados",
+            "description": "Proporcionamos alojamiento a personas refugiadas.",
+            "type": "ACCOMMODATION",
+            "date": "2024-04-19",
+            "coordinates": {
+                "latitude": 41.7890,
+                "longitude": -2.1098
+            },
+            "user_id": 22
+        },
+        {
+            "id": 44,
+            "name": "Donar ropa",
+            "description": "Recogida de ropa para familias desfavorecidas.",
+            "type": "CLOTHES",
+            "date": "2024-04-19",
+            "coordinates": {
+                "latitude": 40.2345,
+                "longitude": -3.8765
+            },
+            "user_id": 10
+        },
+        {
+            "id": 45,
+            "name": "Ofrecer comida",
+            "description": "Servicio de comedor social para personas sin hogar.",
+            "type": "FOOD",
+            "date": "2024-04-19",
+            "coordinates": {
+                "latitude": 39.8765,
+                "longitude": -4.5432
+            },
+            "user_id": 26
+        },
+        {
+            "id": 46,
+            "name": "Donar medicamentos",
+            "description": "Entrega de medicinas para personas en situación de vulnerabilidad.",
+            "type": "MEDICINES",
+            "date": "2024-04-19",
+            "coordinates": {
+                "latitude": 40.6789,
+                "longitude": -4.3210
+            },
+            "user_id": 3
+        },
+        {
+            "id": 47,
+            "name": "Ofrecer transporte",
+            "description": "Transporte para personas con movilidad reducida.",
+            "type": "TRANSPORT",
+            "date": "2024-04-19",
+            "coordinates": {
+                "latitude": 41.1098,
+                "longitude": -3.6543
+            },
+            "user_id": 18
+        },
+        {
+            "id": 48,
+            "name": "Acoger refugiados",
+            "description": "Apoyo y alojamiento para refugiados recién llegados.",
+            "type": "ACCOMMODATION",
+            "date": "2024-04-19",
+            "coordinates": {
+                "latitude": 40.5432,
+                "longitude": -2.7890
+            },
+            "user_id": 29
+        },
+        {
+            "id": 49,
+            "name": "Donar ropa",
+            "description": "Recogida de ropa para niños en situación de necesidad.",
+            "type": "CLOTHES",
+            "date": "2024-04-19",
+            "coordinates": {
+                "latitude": 41.3210,
+                "longitude": -3.4321
+            },
+            "user_id": 14
+        },
+        {
+            "id": 50,
+            "name": "Ofrecer comida",
+            "description": "Distribución de comida para personas sin hogar.",
+            "type": "FOOD",
+            "date": "2024-04-19",
+            "coordinates": {
+                "latitude": 40.9876,
+                "longitude": -2.1098
+            },
+            "user_id": 23
+        },
+        {
+            "id": 51,
+            "name": "Donar medicamentos",
+            "description": "Recogida de medicinas para centros de salud comunitarios.",
+            "type": "MEDICINES",
+            "date": "2024-04-19",
+            "coordinates": {
+                "latitude": 41.2345,
+                "longitude": -4.5678
+            },
+            "user_id": 9
+        },
+        {
+            "id": 52,
+            "name": "Ofrecer transporte",
+            "description": "Servicio de transporte adaptado para personas con discapacidad.",
+            "type": "TRANSPORT",
+            "date": "2024-04-19",
+            "coordinates": {
+                "latitude": 40.7890,
+                "longitude": -3.8765
+            },
+            "user_id": 11
+        },
+        {
+            "id": 53,
+            "name": "Acoger refugiados",
+            "description": "Refugio temporal para familias refugiadas.",
+            "type": "ACCOMMODATION",
+            "date": "2024-04-19",
+            "coordinates": {
+                "latitude": 41.5432,
+                "longitude": -4.3210
+            },
+            "user_id": 4
+        },
+        {
+            "id": 54,
+            "name": "Donar ropa",
+            "description": "Ropa de abrigo para personas mayores en situación de vulnerabilidad.",
+            "type": "CLOTHES",
+            "date": "2024-04-19",
+            "coordinates": {
+                "latitude": 40.6543,
+                "longitude": -2.7890
+            },
+            "user_id": 28
+        },
+        {
+            "id": 55,
+            "name": "Ofrecer comida",
+            "description": "Servicio de comedor comunitario para familias necesitadas.",
+            "type": "FOOD",
+            "date": "2024-04-19",
+            "coordinates": {
+                "latitude": 40.1098,
+                "longitude": -4.4321
+            },
+            "user_id": 17
+        },
+        {
+            "id": 56,
+            "name": "Ofrecer comida",
+            "description": "Proporcionamos comidas calientes a personas necesitadas.",
+            "type": "FOOD",
+            "date": "2024-04-19",
+            "coordinates": {
+              "latitude": 40.4168,
+              "longitude": -3.7201
+            },
+            "user_id": 12
+          },
+          {
+            "id": 57,
+            "name": "Donar ropa",
+            "description": "Recogemos ropa para distribuirla entre personas sin hogar.",
+            "type": "CLOTHES",
+            "date": "2024-04-19",
+            "coordinates": {
+              "latitude": 40.5321,
+              "longitude": -3.6198
+            },
+            "user_id": 5
+          },
+          {
+            "id": 58,
+            "name": "Acoger refugiados",
+            "description": "Brindamos refugio temporal a personas refugiadas.",
+            "type": "ACCOMMODATION",
+            "date": "2024-04-19",
+            "coordinates": {
+              "latitude": 40.6223,
+              "longitude": -3.8245
+            },
+            "user_id": 8
+          },
+          {
+            "id": 59,
+            "name": "Ofrecer transporte",
+            "description": "Proporcionamos transporte gratuito a personas con discapacidad.",
+            "type": "TRANSPORT",
+            "date": "2024-04-19",
+            "coordinates": {
+              "latitude": 40.3124,
+              "longitude": -3.7213
+            },
+            "user_id": 15
+          },
+          {
+            "id": 60,
+            "name": "Donar medicamentos",
+            "description": "Distribuimos medicamentos gratuitos a aquellos que no pueden pagarlos.",
+            "type": "MEDICINES",
+            "date": "2024-04-19",
+            "coordinates": {
+              "latitude": 40.7121,
+              "longitude": -3.9241
+            },
+            "user_id": 20
+          },
+          {
+            "id": 61,
+            "name": "Ofrecer comida",
+            "description": "Proporcionamos almuerzos para personas mayores.",
+            "type": "FOOD",
+            "date": "2024-04-19",
+            "coordinates": {
+              "latitude": 40.6221,
+              "longitude": -3.7205
+            },
+            "user_id": 18
+          },
+          {
+            "id": 62,
+            "name": "Donar ropa",
+            "description": "Recogida de ropa para familias necesitadas.",
+            "type": "CLOTHES",
+            "date": "2024-04-19",
+            "coordinates": {
+              "latitude": 40.5123,
+              "longitude": -3.6200
+            },
+            "user_id": 7
+          },
+          {
+            "id": 63,
+            "name": "Acoger refugiados",
+            "description": "Ofrecemos alojamiento temporal a refugiados.",
+            "type": "ACCOMMODATION",
+            "date": "2024-04-19",
+            "coordinates": {
+              "latitude": 40.7123,
+              "longitude": -3.9245
+            },
+            "user_id": 25
+          },
+          {
+            "id": 64,
+            "name": "Ofrecer transporte",
+            "description": "Transporte para personas con movilidad reducida.",
+            "type": "TRANSPORT",
+            "date": "2024-04-19",
+            "coordinates": {
+              "latitude": 40.3125,
+              "longitude": -3.7214
+            },
+            "user_id": 11
+          },
+          {
+            "id": 65,
+            "name": "Donar medicamentos",
+            "description": "Entrega de medicinas para personas sin recursos.",
+            "type": "MEDICINES",
+            "date": "2024-04-19",
+            "coordinates": {
+              "latitude": 40.7122,
+              "longitude": -3.9240
+            },
+            "user_id": 30
+          },
+          {
+            "id": 66,
+            "name": "Ofrecer comida",
+            "description": "Servicio de comedor comunitario para familias necesitadas.",
+            "type": "FOOD",
+            "date": "2024-04-19",
+            "coordinates": {
+              "latitude": 40.7223,
+              "longitude": -3.7212
+            },
+            "user_id": 2
+          },
+          {
+            "id": 67,
+            "name": "Donar ropa",
+            "description": "Recogida de ropa para personas sin hogar.",
+            "type": "CLOTHES",
+            "date": "2024-04-19",
+            "coordinates": {
+              "latitude": 40.5222,
+              "longitude": -3.6201
+            },
+            "user_id": 16
+          },
+          {
+            "id": 68,
+            "name": "Acoger refugiados",
+            "description": "Proporcionamos refugio y asistencia a personas refugiadas.",
+            "type": "ACCOMMODATION",
+            "date": "2024-04-19",
+            "coordinates": {
+              "latitude": 40.7124,
+              "longitude": -3.9242
+            },
+            "user_id": 22
+          },
+          {
+            "id": 69,
+            "name": "Ofrecer transporte",
+            "description": "Transporte adaptado para personas con discapacidad.",
+            "type": "TRANSPORT",
+            "date": "2024-04-19",
+            "coordinates": {
+              "latitude": 40.3126,
+              "longitude": -3.7215
+            },
+            "user_id": 9
+          },
+          {
+            "id": 70,
+            "name": "Donar medicamentos",
+            "description": "Entrega de medicamentos a personas mayores sin recursos.",
+            "type": "MEDICINES",
+            "date": "2024-04-19",
+            "coordinates": {
+              "latitude": 40.7123,
+              "longitude": -3.9239
+            },
+            "user_id": 28
+          },
+          {
+            "id": 71,
+            "name": "Ofrecer comida",
+            "description": "Proporcionamos comidas calientes a personas necesitadas.",
+            "type": "FOOD",
+            "date": "2024-04-19",
+            "coordinates": {
+              "latitude": 40.4221,
+              "longitude": -3.7203
+            },
+            "user_id": 19
+          },
+          {
+            "id": 72,
+            "name": "Donar ropa",
+            "description": "Recogemos ropa para distribuirla entre personas sin hogar.",
+            "type": "CLOTHES",
+            "date": "2024-04-19",
+            "coordinates": {
+              "latitude": 40.5323,
+              "longitude": -3.6199
+            },
+            "user_id": 14
+          },
+          {
+            "id": 73,
+            "name": "Acoger refugiados",
+            "description": "Brindamos refugio temporal a personas refugiadas.",
+            "type": "ACCOMMODATION",
+            "date": "2024-04-19",
+            "coordinates": {
+              "latitude": 40.6125,
+              "longitude": -3.8246
+            },
+            "user_id": 7
+          },
+          {
+            "id": 74,
+            "name": "Ofrecer transporte",
+            "description": "Proporcionamos transporte gratuito a personas con discapacidad.",
+            "type": "TRANSPORT",
+            "date": "2024-04-19",
+            "coordinates": {
+              "latitude": 40.3127,
+              "longitude": -3.7216
+            },
+            "user_id": 26
+          },
+          {
+            "id": 75,
+            "name": "Donar medicamentos",
+            "description": "Distribuimos medicamentos gratuitos a aquellos que no pueden pagarlos.",
+            "type": "MEDICINES",
+            "date": "2024-04-19",
+            "coordinates": {
+              "latitude": 40.7122,
+              "longitude": -3.9243
+            },
+            "user_id": 23
+          },
+          {
+            "id": 76,
+            "name": "Ofrecer comida",
+            "description": "Proporcionamos comidas calientes a personas necesitadas.",
+            "type": "FOOD",
+            "date": "2024-04-19",
+            "coordinates": {
+              "latitude": 40.4165,
+              "longitude": -3.70256
+            },
+            "user_id": 12
+          },
+          {
+            "id": 77,
+            "name": "Donar ropa",
+            "description": "Recogemos ropa para distribuirla entre personas sin hogar.",
+            "type": "CLOTHES",
+            "date": "2024-04-19",
+            "coordinates": {
+              "latitude": 40.4168,
+              "longitude": -3.7037
+            },
+            "user_id": 5
+          },
+          {
+            "id": 78,
+            "name": "Acoger refugiados",
+            "description": "Brindamos refugio temporal a personas refugiadas.",
+            "type": "ACCOMMODATION",
+            "date": "2024-04-19",
+            "coordinates": {
+              "latitude": 40.4164,
+              "longitude": -3.7032
+            },
+            "user_id": 8
+          },
+          {
+            "id": 79,
+            "name": "Ofrecer transporte",
+            "description": "Proporcionamos transporte gratuito a personas con discapacidad.",
+            "type": "TRANSPORT",
+            "date": "2024-04-19",
+            "coordinates": {
+              "latitude": 40.4159,
+              "longitude": -3.7029
+            },
+            "user_id": 15
+          },
+          {
+            "id": 80,
+            "name": "Donar medicamentos",
+            "description": "Distribuimos medicamentos gratuitos a aquellos que no pueden pagarlos.",
+            "type": "MEDICINES",
+            "date": "2024-04-19",
+            "coordinates": {
+              "latitude": 40.4171,
+              "longitude": -3.7051
+            },
+            "user_id": 20
+          },
+          {
+            "id": 81,
+            "name": "Ofrecer comida",
+            "description": "Proporcionamos almuerzos para personas mayores.",
+            "type": "FOOD",
+            "date": "2024-04-19",
+            "coordinates": {
+              "latitude": 40.4157,
+              "longitude": -3.7022
+            },
+            "user_id": 18
+          },
+          {
+            "id": 82,
+            "name": "Donar ropa",
+            "description": "Recogida de ropa para familias necesitadas.",
+            "type": "CLOTHES",
+            "date": "2024-04-19",
+            "coordinates": {
+              "latitude": 40.4172,
+              "longitude": -3.7023
+            },
+            "user_id": 7
+          },
+          {
+            "id": 83,
+            "name": "Acoger refugiados",
+            "description": "Ofrecemos alojamiento temporal a refugiados.",
+            "type": "ACCOMMODATION",
+            "date": "2024-04-19",
+            "coordinates": {
+              "latitude": 40.4162,
+              "longitude": -3.7033
+            },
+            "user_id": 25
+          },
+          {
+            "id": 84,
+            "name": "Ofrecer transporte",
+            "description": "Transporte para personas con movilidad reducida.",
+            "type": "TRANSPORT",
+            "date": "2024-04-19",
+            "coordinates": {
+              "latitude": 40.4163,
+              "longitude": -3.7024
+            },
+            "user_id": 11
+          },
+          {
+            "id": 85,
+            "name": "Donar medicamentos",
+            "description": "Entrega de medicinas para personas sin recursos.",
+            "type": "MEDICINES",
+            "date": "2024-04-19",
+            "coordinates": {
+              "latitude": 40.4160,
+              "longitude": -3.7019
+            },
+            "user_id": 30
+          },
+          {
+            "id": 86,
+            "name": "Ofrecer comida",
+            "description": "Servicio de comedor comunitario para familias necesitadas.",
+            "type": "FOOD",
+            "date": "2024-04-19",
+            "coordinates": {
+              "latitude": 40.4166,
+              "longitude": -3.7026
+            },
+            "user_id": 2
+          },
+          {
+            "id": 87,
+            "name": "Donar ropa",
+            "description": "Recogida de ropa para personas sin hogar.",
+            "type": "CLOTHES",
+            "date": "2024-04-19",
+            "coordinates": {
+              "latitude": 40.4158,
+              "longitude": -3.7041
+            },
+            "user_id": 16
+          },
+          {
+            "id": 88,
+            "name": "Acoger refugiados",
+            "description": "Proporcionamos refugio y asistencia a personas refugiadas.",
+            "type": "ACCOMMODATION",
+            "date": "2024-04-19",
+            "coordinates": {
+              "latitude": 40.4170,
+              "longitude": -3.7017
+            },
+            "user_id": 22
+          },
+          {
+            "id": 89,
+            "name": "Ofrecer transporte",
+            "description": "Transporte adaptado para personas con discapacidad.",
+            "type": "TRANSPORT",
+            "date": "2024-04-19",
+            "coordinates": {
+              "latitude": 40.4169,
+              "longitude": -3.7038
+            },
+            "user_id": 9
+          },
+          {
+            "id": 90,
+            "name": "Donar medicamentos",
+            "description": "Entrega de medicamentos a personas mayores sin recursos.",
+            "type": "MEDICINES",
+            "date": "2024-04-19",
+            "coordinates": {
+              "latitude": 40.4173,
+              "longitude": -3.7042
+            },
+            "user_id": 28
+          },
+          {
+            "id": 91,
+            "name": "Ofrecer comida",
+            "description": "Proporcionamos comidas calientes a personas necesitadas.",
+            "type": "FOOD",
+            "date": "2024-04-19",
+            "coordinates": {
+              "latitude": 40.4174,
+              "longitude": -3.7028
+            },
+            "user_id": 19
+          },
+          {
+            "id": 92,
+            "name": "Donar ropa",
+            "description": "Recogemos ropa para distribuirla entre personas sin hogar.",
+            "type": "CLOTHES",
+            "date": "2024-04-19",
+            "coordinates": {
+              "latitude": 40.4156,
+              "longitude": -3.7031
+            },
+            "user_id": 14
+          },
+          {
+            "id": 93,
+            "name": "Acoger refugiados",
+            "description": "Brindamos refugio temporal a personas refugiadas.",
+            "type": "ACCOMMODATION",
+            "date": "2024-04-19",
+            "coordinates": {
+              "latitude": 40.4175,
+              "longitude": -3.7020
+            },
+            "user_id": 7
+          },
+          {
+            "id": 94,
+            "name": "Ofrecer transporte",
+            "description": "Proporcionamos transporte gratuito a personas con discapacidad.",
+            "type": "TRANSPORT",
+            "date": "2024-04-19",
+            "coordinates": {
+              "latitude": 40.4167,
+              "longitude": -3.7030
+            },
+            "user_id": 26
+          },
+          {
+            "id": 95,
+            "name": "Donar medicamentos",
+            "description": "Distribuimos medicamentos gratuitos a aquellos que no pueden pagarlos.",
+            "type": "MEDICINES",
+            "date": "2024-04-19",
+            "coordinates": {
+              "latitude": 40.4161,
+              "longitude": -3.7027
+            },
+            "user_id": 23
+          }
+    ]
+}
