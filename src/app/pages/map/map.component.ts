@@ -5,7 +5,6 @@ import * as L from 'leaflet';
 import { PlacesService } from '../../services/places/places.service';
 import { Place } from '../../models/place.model';
 import { NgxLeafletLocateModule } from '@runette/ngx-leaflet-locate';
-import { HeaderMapComponent } from './header-map/header-map.component';
 // import {MatIconModule} from '@angular/material/icon';
 
 // import { latLng, Map, Control, LocationEvent } from 'leaflet';
@@ -18,7 +17,7 @@ import { HeaderMapComponent } from './header-map/header-map.component';
 @Component({
   selector: 'app-map',
   standalone: true,
-  imports: [CommonModule, NgxLeafletLocateModule, HeaderMapComponent],
+  imports: [CommonModule, NgxLeafletLocateModule],
   templateUrl: './map.component.html',
   styleUrl: './map.component.css'
 })
@@ -132,7 +131,6 @@ export class MapComponent {
   }
 
   getPlacesToShow(){
-    debugger
     let zoom = this.map.getZoom(); //16 aquivale a un radio de 0.002
     this.placesToShow = this.placesService.getAllValidPlaces(5, 40.4177, -3.7042);
   }

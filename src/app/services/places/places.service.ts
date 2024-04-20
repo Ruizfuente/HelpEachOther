@@ -18,7 +18,6 @@ export class PlacesService {
 
   public getAllValidPlaces(ratio: number, latitude: number, longitude: number, filter: any = null): any[] {
     // Filtering by proximity
-    debugger
     this.places = mockedPlaces.places;
     let places_filtered = this.places.filter(p =>
       (p.coordinates.latitude - latitude) < ratio 
