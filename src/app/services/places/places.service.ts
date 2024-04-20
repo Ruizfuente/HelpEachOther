@@ -8,7 +8,6 @@ import * as mockedPlaces from '../../resources/mockedData/places.json';
 })
 export class PlacesService {
   places: Place[];
-  mocked_places_url: string = '/assets/students.json';
 
   constructor(
   ) {

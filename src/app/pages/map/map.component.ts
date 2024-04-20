@@ -8,6 +8,8 @@ import { NgxLeafletLocateModule } from '@runette/ngx-leaflet-locate';
 // import {MatIconModule} from '@angular/material/icon';
 
 // import { latLng, Map, Control, LocationEvent } from 'leaflet';
+import { UsuariosService } from '../../services/places/usuarios.service';
+import { User } from '../../models/user.model';
 
 
 // siguientes pasos:
@@ -28,7 +30,7 @@ export class MapComponent {
   public marker: any;
   public circle: any;
   public zoomed: any;
-  
+
   // public locateOptions: L.Control.LocateOptions = {
   //   flyTo: true,
   //   keepCurrentZoomLevel: true,
@@ -46,8 +48,14 @@ export class MapComponent {
 
   constructor(
     private placesService: PlacesService,
+    private usuariosService: UsuariosService
   ) {
   }
+
+
+  getUser(id: number): User {
+    return this.usuariosService.getUserById(id);
+  };
 
   ngAfterViewInit(): void {
     this.createMap();
@@ -57,27 +65,27 @@ export class MapComponent {
 
   toggleLocation(map: L.Map) {
     // watchPossition esta pendiente de cambios, getCurrentPosition lo hace solo una vez
-    
+
     let marker = this.marker;
     // let circle = this.circle;
     let zoomed = this.zoomed;
-// siguiente paso: USAR https://stackoverflow.com/questions/39253172/navigator-geolocation-watchposition-return-position-unavailable
-// EN LUGAR DE WATCHPOSSITION O BUSCAR UNA ALTERNATIVA MAS PROPIA PARA ANGULAR PUDIENDO USAR THIS
+    // siguiente paso: USAR https://stackoverflow.com/questions/39253172/navigator-geolocation-watchposition-return-position-unavailable
+    // EN LUGAR DE WATCHPOSSITION O BUSCAR UNA ALTERNATIVA MAS PROPIA PARA ANGULAR PUDIENDO USAR THIS
     navigator.geolocation.watchPosition(onLocationSuccess, onLocationError);
-    
-    function onLocationSuccess(pos: any){
+
+    function onLocationSuccess(pos: any) {
       const lat = pos.coords.latitude;
       const lng = pos.coords.longitude;
       const accuracy = pos.coords.accuracy;
 
-      if(marker){
+      if (marker) {
         map.removeLayer(marker);
         // map.removeLayer(circle);
       }
       marker = L.marker([lat, lng]).addTo(map);
       // circle = L.circle([lat, lng], {radius: accuracy}).addTo(map);
-      
-      if(!zoomed){
+
+      if (!zoomed) {
         // zoomed = map.fitBounds(circle.getBounds());
       }
       map.setView([lat, lng]);
@@ -104,16 +112,18 @@ export class MapComponent {
   // $('#actions').find('a').on('click', function() {
   //    locateUser();
   // });
-
+  // choice_locations(): GEojsonobje{
+  //   console.log("choiced")
+  // }
   createMap() {
-    this.map = new L.Map('map').setView([40.4170547	, -3.7033967], 16);
+    this.map = new L.Map('map').setView([40.4170547, -3.7033967], 16);
 
     L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', { // PATH WITH MORE LAYERS: https://leaflet-extras.github.io/leaflet-providers/preview/
       maxZoom: 19,
       attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
     }).addTo(this.map);
 
-    
+
     // L.control.locate().addTo(map);
 
 
@@ -130,7 +140,7 @@ export class MapComponent {
     // map.addControl(searchControl);
   }
 
-  getPlacesToShow(){
+  getPlacesToShow() {
     let zoom = this.map.getZoom(); //16 aquivale a un radio de 0.002
     this.placesToShow = this.placesService.getAllValidPlaces(5, 40.4177, -3.7042);
   }
@@ -139,6 +149,8 @@ export class MapComponent {
     this.getPlacesToShow();
     // Siguiendo: https://leafletjs.com/examples/custom-icons/
     let iconWidth = 60;
+    let map = this.map;
+
     this.placesToShow.forEach(place => {
       let curr_icon = L.icon({
         iconUrl: `assets/icons/map-pin/${place.type}.png`,
@@ -149,12 +161,38 @@ export class MapComponent {
         // // shadowAnchor: [4, 62],  // the same for the shadow
         popupAnchor: [0, 0] // point from which the popup should open relative to the iconAnchor
       });
-      L.marker([place.coordinates.latitude, place.coordinates.longitude], {
+      let myPositionMarker = L.marker([place.coordinates.latitude, place.coordinates.longitude], {
         icon: curr_icon,
         riseOnHover: true
-      }).addTo(this.map).bindPopup(place.name);;
-    });
+      }).addTo(this.map).bindPopup(place.name).on("click", function () {
+        // let possition = myPositionMarker.getLatLng();
+        map.setView([place.coordinates.latitude, place.coordinates.longitude])
 
+        const elemento_to_scroll = document.querySelector("#scroll-to-"+place.id)
+        if(elemento_to_scroll){
+          elemento_to_scroll.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'start' })
+        }
+      });
+
+      //   myPositionMarker.on("click", function() {
+      //     var pos = map.latLngToLayerPoint(myPositionMarker.getLatLng());
+      //     pos.y -= 25;
+      //     var fx = new L.PosAnimation();
+
+      //     fx.once('end',function() {
+      //         pos.y += 25;
+      //         fx.run(myPositionMarker._icon, pos, 0.8);
+      //     });
+
+      //     fx.run(myPositionMarker._icon, pos, 0.3);
+      // });
+
+    });
+  }
+
+  toggleClickAdvert($event: any, place: Place) {
+    this.map.setView([place.coordinates.latitude, place.coordinates.longitude], 16);
+    //TODO: Cambiar el icono del que hemos hecho el setView y ponerlo en otro color para destacarlo del resto
   }
 
 }

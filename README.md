@@ -25,3 +25,18 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
+
+
+
+
+TODO LIST
+- When user moves and location changes the map is automatically set on the new position so the focus of whatever user us watching is lost
+
+- investigar:
+    L.geoJSON(this.choice_locations, {
+      onEachFeature: function(feature, layer){
+
+      }
+    })

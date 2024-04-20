@@ -19,12 +19,16 @@
         <div class="container py-5 h-100">
             <div class="row d-flex justify-content-center h-100">
               <div class="col col-xl-10">
-                <div *ngFor="let place of placesToShow" class="card mb-5" style="border-radius: 15px;">
+                <div *ngFor="let place of placesToShow" (click)="toggleClickAdvert($event, place)" class="card mb-5" style="border-radius: 15px;" attr.id="scroll-to-{{place.id}}">
                   <div class="card-body p-4">
                     <h3 class="mb-3">{{place.name}}</h3>
                     <p class="small mb-0"><img style="max-width: 40px;" src="assets/icons/map-pin/{{place.type}}.png" alt=""> <span class="mx-2">|</span> Creado por 
                         <!-- (hay que hacer el join con el id de usuario al json de users) -->
-                      <strong>NombreUsuario({{place.user_id}}) </strong> el {{place.date}}</p>
+                      <strong>({{getUser(place.user_id).name}})</strong>
+                      el {{place.date}}
+                      <br>
+                      {{place.description}}
+                    </p>
                     <hr class="my-4">
                     <div class="d-flex justify-content-start align-items-center">
                       <p class="mb-0 text-uppercase"><i class="m-2 bi bi-telephone"></i>
@@ -38,7 +42,6 @@
                     </div>
                   </div>
                 </div>
-               
               </div>
             </div>
           </div>
@@ -50,7 +53,6 @@
 
 </div>
 
-<button class="btn btn-danger"> sdd</button>
 <!-- <leaflet-locate-control 
     [map]="map" 
     [options]="locateOptions"
