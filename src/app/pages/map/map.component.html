@@ -1,6 +1,6 @@
 <div class="row">
-    
-    <!-- <div class="card m-5"  *ngFor="let place of placesToShow" >
+
+  <!-- <div class="card m-5"  *ngFor="let place of placesToShow" >
         <img class="card-img-top" style="max-width: 100px; border-radius: 90%;" src="./../../../assets/profile_pictures/image-{{place.user_id}}.png" alt="Card image cap">
         <div class="card-body">
             <h5 class="card-title">{{place.name}}</h5>
@@ -15,41 +15,45 @@
             <a href="#" class="card-link">Another link</a>
         </div>
     </div> -->
-    <div class="col-5 places-container">
-        <div class="container py-5 h-100">
-            <div class="row d-flex justify-content-center h-100">
-              <div class="col col-xl-10">
-                <div *ngFor="let place of placesToShow" (click)="toggleClickAdvert($event, place)" class="card mb-5" style="border-radius: 15px;" attr.id="scroll-to-{{place.id}}">
-                  <div class="card-body p-4">
-                    <h3 class="mb-3">{{place.name}}</h3>
-                    <p class="small mb-0"><img style="max-width: 40px;" src="assets/icons/map-pin/{{place.type}}.png" alt=""> <span class="mx-2">|</span> Creado por 
-                        <!-- (hay que hacer el join con el id de usuario al json de users) -->
-                      <strong>({{getUser(place.user_id).name}})</strong>
-                      el {{place.date}}
-                      <br>
-                      {{place.description}}
-                    </p>
-                    <hr class="my-4">
-                    <div class="d-flex justify-content-start align-items-center">
-                      <p class="mb-0 text-uppercase"><i class="m-2 bi bi-telephone"></i>
-                        <span class="text-muted small">Contactar</span><span class="ms-3 me-4">|</span></p>
-                      <p class="mb-0 text-uppercase"><i class="m-1 bi bi-person-raised-hand"></i><span
-                          class="text-muted small">Solicitar</span><span class="ms-3 me-4">|</span></p>
-                      <!-- <a href=""> -->
-                        <img src="./../../../assets/profile_pictures/image-{{place.user_id}}.png" alt="avatar"
-                          class="img-fluid rounded-circle me-3" width="35">
-                      <!-- </a> -->
-                    </div>
-                  </div>
-                </div>
+  <div class="col-5 places-container">
+    <div class="container py-5 h-100">
+      <div class="row d-flex justify-content-center h-100">
+        <div class="col col-xl-10">
+          <div *ngFor="let place of placesToShow" (click)="toggleClickAdvert($event, place)" class="card mb-5"
+            style="border-radius: 15px;" attr.id="scroll-to-{{place.id}}">
+            <div class="card-body p-4">
+              <h3 class="mb-3">{{place.name}}</h3>
+              <p class="small mb-0">
+                <img style="max-width: 40px;" src="assets/icons/map-pin/{{place.type}}.png" alt="">
+                <span class="mx-2">|</span> Creado por
+                <!-- (hay que hacer el join con el id de usuario al json de users) -->
+                <strong>({{getUser(place.user_id).name}})</strong>
+                el {{place.date}}
+                <br>
+                {{place.description}}
+              </p>
+              <hr class="my-4">
+              <div class="d-flex justify-content-start align-items-center">
+                <p class="mb-0 text-uppercase"><i class="m-2 bi bi-telephone"></i>
+                  <span class="text-muted small">Contactar</span><span class="ms-3 me-4">|</span>
+                </p>
+                <p class="mb-0 text-uppercase"><i class="m-1 bi bi-person-raised-hand"></i><span
+                    class="text-muted small">Solicitar</span><span class="ms-3 me-4">|</span></p>
+                <!-- <a href=""> -->
+                <img src="./../../../assets/profile_pictures/image-{{place.user_id}}.png" alt="avatar"
+                  class="img-fluid rounded-circle me-3" width="35">
+                <!-- </a> -->
               </div>
             </div>
           </div>
+        </div>
+      </div>
     </div>
+  </div>
 
-    <div class="col-7">
-        <div id="map"></div>
-    </div>
+  <div class="col-7">
+    <div id="map"></div>
+  </div>
 
 </div>
 

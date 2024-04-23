@@ -1,8 +1,103 @@
-<div style="background-color: rgb(41, 230, 16); height: 100rem;">
-    <p>main-page works!</p>
-    <div class="content">
-        <div class="divider" role="separator" aria-label="Divider"></div>
-        Help each other app
-        <i class="bi bi-airplane-engines"></i>
+<section class="banner">
+    <div class="content-banner">
+        <p>Help each other</p>
+        <h2>Caritatis</h2> <br />
+        <h3>Just a better world</h3>
+        <button class="main-strart-button"><span class="text">Start</span></button>
     </div>
-</div>
+</section>
+
+<main class="main-content section-apart">
+    <h1 class="heading-1">Icon scale</h1>
+
+    <section class="container container-features">
+        <div class="card-feature">
+            <img style="max-width: 50px;" src="assets/icons/map-pin/FOOD.png" alt="">
+            <div class="feature-content">
+                <span>Food</span>
+                <p>Food donations, soup kitchens, food collection points...</p>
+            </div>
+        </div>
+        <div class="card-feature">
+            <img style="max-width: 50px;" src="assets/icons/map-pin/CLOTHES.png" alt="">
+
+            <div class="feature-content">
+                <span>Clothes</span>
+                <p>Clothes donations, clothes collection points...</p>
+            </div>
+        </div>
+        <div class="card-feature">
+            <img style="max-width: 50px;" src="assets/icons/map-pin/MEDICINES.png" alt="">
+
+            <div class="feature-content">
+                <span>Medicines</span>
+                <p>Medicines donations, care points for sick people...</p>
+            </div>
+        </div>
+        <div class="card-feature">
+            <img style="max-width: 50px;" src="assets/icons/map-pin/ACCOMMODATION.png" alt="">
+
+            <div class="feature-content">
+                <span>Accommodation</span>
+                <p>Temporary foster homes, childcare, places for sleeping...</p>
+            </div>
+        </div>
+        <div class="card-feature">
+            <img style="max-width: 60px;" src="assets/icons/map-pin/TRANSPORT.png" alt="">
+
+            <div class="feature-content">
+                <span>Transport</span>
+                <p>Transport of people without resources, help routes...</p>
+            </div>
+        </div>
+        <div class="card-feature">
+            <img style="max-width: 60px;" src="assets/icons/map-pin/TRANSPORT.png" alt="">
+
+            <div class="feature-content">
+                <span>Others</span>
+                <p>Any other help offered...</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-apart">
+        
+        <h1 class="heading-1">Some of our services</h1>
+
+        <div class="container-options">
+            <span class="active">Destacados</span>
+            <span>Más recientes</span>
+            <span>Mejores Vendidos</span>
+        </div>
+
+        <div class="container container-examples">
+            <!-- TODO. (click)="toggleClickAdvert($event, place)"  -->
+            <div *ngFor="let place of placesToShow" class="card mb-5" style="border-radius: 15px;"
+                attr.id="scroll-to-{{place.id}}">
+                <div class="card-body p-4">
+                    <h3 class="mb-3">{{place.name}}</h3>
+                    <p class="small mb-0">
+                        <img style="max-width: 40px;" src="assets/icons/map-pin/{{place.type}}.png" alt="">
+                        <span class="mx-2">|</span> Creado por
+                        <strong>({{getUser(place.user_id).name}})</strong>
+                        el {{place.date}}
+                        <br>
+                        {{place.description}}
+                    </p>
+                    <hr class="my-4">
+                    <div class="d-flex justify-content-start align-items-center">
+                        <p class="mb-0 text-uppercase"><i class="m-2 bi bi-telephone"></i>
+                            <span class="text-muted small">Contactar</span><span class="ms-3 me-4">|</span>
+                        </p>
+                        <p class="mb-0 text-uppercase"><i class="m-1 bi bi-person-raised-hand"></i><span
+                                class="text-muted small">Solicitar</span><span class="ms-3 me-4">|</span></p>
+                        <img src="./../../../assets/profile_pictures/image-{{place.user_id}}.png" alt="avatar"
+                            class="img-fluid rounded-circle me-3" width="35">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+</main>
