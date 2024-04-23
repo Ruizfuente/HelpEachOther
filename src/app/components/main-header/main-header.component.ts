@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-main-header',
@@ -8,7 +9,13 @@ import { Component } from '@angular/core';
   styleUrl: './main-header.component.scss'
 })
 export class MainHeaderComponent {
-  
+  constructor(
+    private router: Router
+  ) {
+  } 
+  navigateOnClick(route: string){
+    this.router.navigate([route]);
+  }
 }
 
 // const burger = document.querySelector('.burger i');

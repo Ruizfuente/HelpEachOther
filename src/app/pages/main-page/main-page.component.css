@@ -680,7 +680,7 @@
 
     .container-features {
         grid-template-columns: repeat(2, 1fr);
-        padding: 3rem 2rem;
+        padding: 3rem;
     }
 
     .container-examples {
