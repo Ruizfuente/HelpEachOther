@@ -19,14 +19,17 @@ export class MainPageComponent {
 
   public _placeTypes = PlaceTypes;
   // public _AppRoutes = AppRoutes;
+  public placesToShowAll: Place[] = [];
   public placesToShow: Place[] = [];
+  public selectedOptionServices: number = 1;
 
   constructor(
     private placesService: PlacesService,
     private usuariosService: UsuariosService,
     private router: Router
   ) {
-    this.placesToShow = this.placesService.getAllValidPlaces(5, 40.4177, -3.7042).slice(0, 15);
+    this.placesToShowAll = this.placesService.getAllValidPlaces(5, 40.4177, -3.7042);
+    this.placesToShow = this.placesToShowAll.slice(0, 15);;
   }
 
 
@@ -34,7 +37,21 @@ export class MainPageComponent {
     return this.usuariosService.getUserById(id);
   };
 
-  navigateOnClick(route: string){
+  navigateOnClick(route: string) {
     this.router.navigate([route]);
+  }
+  toggleSelectedOptionServices(selectedOption: number) {
+    if(selectedOption != this.selectedOptionServices){
+      this.selectedOptionServices = selectedOption;
+      debugger
+      let placesToShowAllCopyByValue = this.placesToShowAll.slice();
+      if (selectedOption == 2) {
+        this.placesToShow = placesToShowAllCopyByValue.sort((a, b) => (a.date < b.date) ? 1 : -1).slice(0, 15);
+      } else if (selectedOption == 1) {
+        this.placesToShow = placesToShowAllCopyByValue.slice(0, 15);
+      } else if (selectedOption == 3) {
+        this.placesToShow = placesToShowAllCopyByValue.slice(16, 31);
+      }
+    }
   }
 }

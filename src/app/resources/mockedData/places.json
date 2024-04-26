@@ -5,7 +5,7 @@
       "name": "Ofrecer comida",
       "description": "Proporcionamos alimentos a personas necesitadas.",
       "type": "FOOD",
-      "date": "2024-04-20",
+      "date": "2024-07-27",
       "coordinates": {
         "latitude": 40.392918,
         "longitude": -3.685350
@@ -17,7 +17,7 @@
       "name": "Donar ropa",
       "description": "Recogemos y distribuimos ropa para personas sin hogar.",
       "type": "CLOTHES",
-      "date": "2024-04-20",
+      "date": "2024-07-27",
       "coordinates": {
         "latitude": 40.493710,
         "longitude": -3.785610
@@ -29,7 +29,7 @@
       "name": "Acoger refugiados",
       "description": "Brindamos refugio temporal a personas refugiadas.",
       "type": "ACCOMMODATION",
-      "date": "2024-04-20",
+      "date": "2024-04-27",
       "coordinates": {
         "latitude": 40.467122,
         "longitude": -3.655821
@@ -41,7 +41,7 @@
       "name": "Ofrecer transporte",
       "description": "Proporcionamos transporte gratuito a personas con movilidad reducida.",
       "type": "TRANSPORT",
-      "date": "2024-04-20",
+      "date": "2024-04-27",
       "coordinates": {
         "latitude": 40.368929,
         "longitude": -3.758691
@@ -53,7 +53,7 @@
       "name": "Donar medicamentos",
       "description": "Distribuimos medicamentos gratuitos a aquellos que lo necesitan.",
       "type": "MEDICINES",
-      "date": "2024-04-20",
+      "date": "2024-04-27",
       "coordinates": {
         "latitude": 40.519314,
         "longitude": -3.417232
@@ -65,7 +65,7 @@
       "name": "Acoger refugiados",
       "description": "Ofrecemos alojamiento temporal a personas refugiadas.",
       "type": "ACCOMMODATION",
-      "date": "2024-04-20",
+      "date": "2023-04-27",
       "coordinates": {
         "latitude": 40.312345,
         "longitude": -3.802345
@@ -77,7 +77,7 @@
       "name": "Ofrecer comida",
       "description": "Proporcionamos comidas calientes a personas necesitadas.",
       "type": "FOOD",
-      "date": "2024-04-20",
+      "date": "2023-04-27",
       "coordinates": {
         "latitude": 40.345678,
         "longitude": -3.430987
@@ -89,7 +89,7 @@
       "name": "Donar ropa",
       "description": "Recogemos ropa para distribuirla entre personas sin hogar.",
       "type": "CLOTHES",
-      "date": "2024-04-20",
+      "date": "2023-04-27",
       "coordinates": {
         "latitude": 40.467891,
         "longitude": -3.580123
@@ -101,7 +101,7 @@
       "name": "Ofrecer transporte",
       "description": "Proporcionamos transporte gratuito a personas con discapacidad.",
       "type": "TRANSPORT",
-      "date": "2024-04-20",
+      "date": "2024-04-27",
       "coordinates": {
         "latitude": 40.423456,
         "longitude": -3.615432
@@ -113,7 +113,7 @@
       "name": "Donar medicamentos",
       "description": "Distribuimos medicamentos gratuitos a aquellos que no pueden pagarlos.",
       "type": "MEDICINES",
-      "date": "2024-04-20",
+      "date": "2024-04-27",
       "coordinates": {
         "latitude": 40.478912,
         "longitude": -3.724567
@@ -125,7 +125,7 @@
       "name": "Acoger refugiados",
       "description": "Brindamos refugio temporal a personas refugiadas.",
       "type": "ACCOMMODATION",
-      "date": "2024-04-20",
+      "date": "2024-04-27",
       "coordinates": {
         "latitude": 40.338912,
         "longitude": -3.651234
@@ -137,7 +137,7 @@
       "name": "Ofrecer comida",
       "description": "Proporcionamos almuerzos para personas mayores.",
       "type": "FOOD",
-      "date": "2024-04-20",
+      "date": "2024-04-27",
       "coordinates": {
         "latitude": 40.361234,
         "longitude": -3.399012
@@ -149,7 +149,7 @@
       "name": "Donar ropa",
       "description": "Recogida de ropa para familias necesitadas.",
       "type": "CLOTHES",
-      "date": "2024-04-20",
+      "date": "2024-04-27",
       "coordinates": {
         "latitude": 40.377654,
         "longitude": -3.487891
@@ -161,7 +161,7 @@
       "name": "Ofrecer transporte",
       "description": "Transporte para personas con movilidad reducida.",
       "type": "TRANSPORT",
-      "date": "2024-04-20",
+      "date": "2023-04-27",
       "coordinates": {
         "latitude": 40.333456,
         "longitude": -3.522678
@@ -173,7 +173,7 @@
       "name": "Donar medicamentos",
       "description": "Entrega de medicinas para personas sin recursos.",
       "type": "MEDICINES",
-      "date": "2024-04-20",
+      "date": "2023-04-27",
       "coordinates": {
         "latitude": 40.394567,
         "longitude": -3.600987
@@ -185,7 +185,7 @@
       "name": "Ofrecer comida",
       "description": "Servicio de comedor comunitario para familias necesitadas.",
       "type": "FOOD",
-      "date": "2024-04-20",
+      "date": "2023-04-24",
       "coordinates": {
         "latitude": 40.312345,
         "longitude": -3.700123
@@ -197,7 +197,7 @@
       "name": "Donar ropa",
       "description": "Recogida de ropa para personas sin hogar.",
       "type": "CLOTHES",
-      "date": "2024-04-20",
+      "date": "2024-04-24",
       "coordinates": {
         "latitude": 40.346789,
         "longitude": -3.466789
@@ -209,7 +209,7 @@
       "name": "Acoger refugiados",
       "description": "Proporcionamos refugio y asistencia a personas refugiadas.",
       "type": "ACCOMMODATION",
-      "date": "2024-04-20",
+      "date": "2024-04-24",
       "coordinates": {
         "latitude": 40.467891,
         "longitude": -3.383456
@@ -221,7 +221,7 @@
       "name": "Ofrecer transporte",
       "description": "Transporte adaptado para personas con discapacidad.",
       "type": "TRANSPORT",
-      "date": "2024-04-20",
+      "date": "2024-04-24",
       "coordinates": {
         "latitude": 40.498765,
         "longitude": -3.547891
@@ -233,7 +233,7 @@
       "name": "Donar medicamentos",
       "description": "Entrega de medicamentos a personas mayores sin recursos.",
       "type": "MEDICINES",
-      "date": "2024-04-20",
+      "date": "2024-07-24",
       "coordinates": {
         "latitude": 40.367891,
         "longitude": -3.505432
@@ -245,7 +245,7 @@
       "name": "Ofrecer comida",
       "description": "Proporcionamos comidas calientes a personas necesitadas.",
       "type": "FOOD",
-      "date": "2024-04-20",
+      "date": "2024-07-24",
       "coordinates": {
         "latitude": 40.489012,
         "longitude": -3.378912
@@ -257,7 +257,7 @@
       "name": "Donar ropa",
       "description": "Recogemos ropa para distribuirla entre personas sin hogar.",
       "type": "CLOTHES",
-      "date": "2024-04-20",
+      "date": "2023-07-24",
       "coordinates": {
         "latitude": 40.367891,
         "longitude": -3.801234
@@ -269,7 +269,7 @@
       "name": "Acoger refugiados",
       "description": "Brindamos refugio temporal a personas refugiadas.",
       "type": "ACCOMMODATION",
-      "date": "2024-04-20",
+      "date": "2023-07-24",
       "coordinates": {
         "latitude": 40.439012,
         "longitude": -3.552345
@@ -281,7 +281,7 @@
       "name": "Ofrecer transporte",
       "description": "Proporcionamos transporte gratuito a personas con discapacidad.",
       "type": "TRANSPORT",
-      "date": "2024-04-20",
+      "date": "2025-07-30",
       "coordinates": {
         "latitude": 40.356789,
         "longitude": -3.583456
@@ -293,7 +293,7 @@
       "name": "Donar medicamentos",
       "description": "Distribuimos medicamentos gratuitos a aquellos que no pueden pagarlos.",
       "type": "MEDICINES",
-      "date": "2024-04-20",
+      "date": "2025-07-30",
       "coordinates": {
         "latitude": 40.456789,
         "longitude": -3.674567
@@ -305,7 +305,7 @@
       "name": "Ayuda humanitaria en Ucrania",
       "description": "Proporcionamos ayuda humanitaria a civiles afectados por el conflicto en Ucrania.",
       "type": "ACCOMMODATION",
-      "date": "2024-04-20",
+      "date": "2025-07-30",
       "coordinates": {
         "latitude": 40.248765,
         "longitude": -3.812345
@@ -317,7 +317,7 @@
       "name": "Asistencia médica en Gaza",
       "description": "Brindamos asistencia médica a víctimas del conflicto en Gaza y Palestina.",
       "type": "MEDICINES",
-      "date": "2024-04-20",
+      "date": "2025-07-30",
       "coordinates": {
         "latitude": 40.278912,
         "longitude": -3.765432
@@ -329,7 +329,7 @@
       "name": "Refugio para desplazados en Ucrania",
       "description": "Ofrecemos refugio y asistencia a personas desplazadas por el conflicto en Ucrania.",
       "type": "ACCOMMODATION",
-      "date": "2024-04-20",
+      "date": "2025-07-30",
       "coordinates": {
         "latitude": 40.234786,
         "longitude": -3.847069
@@ -341,7 +341,7 @@
       "name": "Envío de alimentos a Palestina",
       "description": "Enviamos alimentos a familias afectadas por la guerra en Palestina.",
       "type": "FOOD",
-      "date": "2024-04-20",
+      "date": "2024-07-30",
       "coordinates": {
         "latitude": 40.314567,
         "longitude": -3.652345
@@ -353,7 +353,7 @@
       "name": "Donación de medicamentos para Ucrania",
       "description": "Donamos medicamentos para ayudar a los afectados por el conflicto en Ucrania.",
       "type": "MEDICINES",
-      "date": "2024-04-20",
+      "date": "2024-07-30",
       "coordinates": {
         "latitude": 40.296789,
         "longitude": -3.721234
@@ -365,7 +365,7 @@
       "name": "Asistencia a refugiados palestinos",
       "description": "Brindamos asistencia y apoyo a refugiados palestinos desplazados por la guerra.",
       "type": "ACCOMMODATION",
-      "date": "2024-04-20",
+      "date": "2024-07-30",
       "coordinates": {
         "latitude": 40.289012,
         "longitude": -3.612345
@@ -377,7 +377,7 @@
       "name": "Ayuda médica en Ucrania",
       "description": "Proporcionamos atención médica a personas heridas por el conflicto en Ucrania.",
       "type": "MEDICINES",
-      "date": "2024-04-20",
+      "date": "2024-07-30",
       "coordinates": {
         "latitude": 40.327891,
         "longitude": -3.721234
@@ -389,7 +389,7 @@
       "name": "Apoyo psicológico en Gaza",
       "description": "Brindamos apoyo psicológico a personas afectadas por la guerra en Gaza y Palestina.",
       "type": "ACCOMMODATION",
-      "date": "2024-04-20",
+      "date": "2024-07-30",
       "coordinates": {
         "latitude": 40.338912,
         "longitude": -3.567891
@@ -401,7 +401,7 @@
       "name": "Ayuda humanitaria en Ucrania",
       "description": "Proporcionamos ayuda humanitaria a civiles afectados por el conflicto en Ucrania.",
       "type": "FOOD",
-      "date": "2024-04-20",
+      "date": "2024-07-30",
       "coordinates": {
         "latitude": 40.273456,
         "longitude": -3.691234
@@ -413,7 +413,7 @@
       "name": "Asistencia médica en Gaza",
       "description": "Brindamos asistencia médica a víctimas del conflicto en Gaza y Palestina.",
       "type": "MEDICINES",
-      "date": "2024-04-20",
+      "date": "2024-07-03",
       "coordinates": {
         "latitude": 40.281234,
         "longitude": -3.745678
@@ -425,7 +425,7 @@
       "name": "Refugio para desplazados en Ucrania",
       "description": "Ofrecemos refugio y asistencia a personas desplazadas por el conflicto en Ucrania.",
       "type": "ACCOMMODATION",
-      "date": "2024-04-20",
+      "date": "2024-07-03",
       "coordinates": {
         "latitude": 40.255432,
         "longitude": -3.804321
@@ -437,7 +437,7 @@
       "name": "Envío de alimentos a Palestina",
       "description": "Enviamos alimentos a familias afectadas por la guerra en Palestina.",
       "type": "FOOD",
-      "date": "2024-04-20",
+      "date": "2024-07-03",
       "coordinates": {
         "latitude": 40.309012,
         "longitude": -3.692345
@@ -449,7 +449,7 @@
       "name": "Donación de medicamentos para Ucrania",
       "description": "Donamos medicamentos para ayudar a los afectados por el conflicto en Ucrania.",
       "type": "MEDICINES",
-      "date": "2024-04-20",
+      "date": "2024-07-03",
       "coordinates": {
         "latitude": 40.289012,
         "longitude": -3.731234
@@ -461,7 +461,7 @@
       "name": "Asistencia a refugiados palestinos",
       "description": "Brindamos asistencia y apoyo a refugiados palestinos desplazados por la guerra.",
       "type": "ACCOMMODATION",
-      "date": "2024-04-20",
+      "date": "2024-12-03",
       "coordinates": {
         "latitude": 40.297891,
         "longitude": -3.622345
@@ -473,7 +473,7 @@
       "name": "Ayuda médica en Ucrania",
       "description": "Proporcionamos atención médica a personas heridas por el conflicto en Ucrania.",
       "type": "MEDICINES",
-      "date": "2024-04-20",
+      "date": "2024-12-03",
       "coordinates": {
         "latitude": 40.333456,
         "longitude": -3.731234
@@ -485,7 +485,7 @@
       "name": "Apoyo psicológico en Gaza",
       "description": "Brindamos apoyo psicológico a personas afectadas por la guerra en Gaza y Palestina.",
       "type": "ACCOMMODATION",
-      "date": "2024-04-20",
+      "date": "2024-12-03",
       "coordinates": {
         "latitude": 40.348912,
         "longitude": -3.567891
@@ -497,7 +497,7 @@
       "name": "Ayuda humanitaria en Ucrania",
       "description": "Proporcionamos ayuda humanitaria a civiles afectados por el conflicto en Ucrania.",
       "type": "FOOD",
-      "date": "2024-04-20",
+      "date": "2024-12-03",
       "coordinates": {
         "latitude": 40.283456,
         "longitude": -3.691234
@@ -509,7 +509,7 @@
       "name": "Asistencia médica en Gaza",
       "description": "Brindamos asistencia médica a víctimas del conflicto en Gaza y Palestina.",
       "type": "MEDICINES",
-      "date": "2024-04-20",
+      "date": "2024-12-03",
       "coordinates": {
         "latitude": 40.291234,
         "longitude": -3.755678
@@ -521,7 +521,7 @@
       "name": "Refugio para desplazados en Ucrania",
       "description": "Ofrecemos refugio y asistencia a personas desplazadas por el conflicto en Ucrania.",
       "type": "ACCOMMODATION",
-      "date": "2024-04-20",
+      "date": "2025-12-03",
       "coordinates": {
         "latitude": 40.265432,
         "longitude": -3.794321
@@ -533,7 +533,7 @@
       "name": "Envío de alimentos a Palestina",
       "description": "Enviamos alimentos a familias afectadas por la guerra en Palestina.",
       "type": "FOOD",
-      "date": "2024-04-20",
+      "date": "2025-12-03",
       "coordinates": {
         "latitude": 40.299012,
         "longitude": -3.682345
@@ -545,7 +545,7 @@
       "name": "Donación de medicamentos para Ucrania",
       "description": "Donamos medicamentos para ayudar a los afectados por el conflicto en Ucrania.",
       "type": "MEDICINES",
-      "date": "2024-04-20",
+      "date": "2025-12-19",
       "coordinates": {
         "latitude": 40.279012,
         "longitude": -3.721234
@@ -557,7 +557,7 @@
       "name": "Asistencia a refugiados palestinos",
       "description": "Brindamos asistencia y apoyo a refugiados palestinos desplazados por la guerra.",
       "type": "ACCOMMODATION",
-      "date": "2024-04-20",
+      "date": "2025-12-19",
       "coordinates": {
         "latitude": 40.307891,
         "longitude": -3.612345
@@ -569,7 +569,7 @@
       "name": "Ayuda médica en Ucrania",
       "description": "Proporcionamos atención médica a personas heridas por el conflicto en Ucrania.",
       "type": "MEDICINES",
-      "date": "2024-04-20",
+      "date": "2025-12-19",
       "coordinates": {
         "latitude": 40.323456,
         "longitude": -3.731234
@@ -581,7 +581,7 @@
       "name": "Apoyo psicológico en Gaza",
       "description": "Brindamos apoyo psicológico a personas afectadas por la guerra en Gaza y Palestina.",
       "type": "ACCOMMODATION",
-      "date": "2024-04-20",
+      "date": "2025-12-19",
       "coordinates": {
         "latitude": 40.358912,
         "longitude": -3.567891
@@ -593,7 +593,7 @@
       "name": "Ayuda humanitaria en Ucrania",
       "description": "Proporcionamos ayuda humanitaria a civiles afectados por el conflicto en Ucrania.",
       "type": "FOOD",
-      "date": "2024-04-20",
+      "date": "2025-12-19",
       "coordinates": {
         "latitude": 40.263456,
         "longitude": -3.691234
@@ -605,7 +605,7 @@
       "name": "Asistencia médica en Gaza",
       "description": "Brindamos asistencia médica a víctimas del conflicto en Gaza y Palestina.",
       "type": "MEDICINES",
-      "date": "2024-04-20",
+      "date": "2025-12-19",
       "coordinates": {
         "latitude": 40.296789,
         "longitude": -3.755678
@@ -617,7 +617,7 @@
       "name": "Refugio para desplazados en Ucrania",
       "description": "Ofrecemos refugio y asistencia a personas desplazadas por el conflicto en Ucrania.",
       "type": "ACCOMMODATION",
-      "date": "2024-04-20",
+      "date": "2025-12-19",
       "coordinates": {
         "latitude": 40.275432,
         "longitude": -3.784321
@@ -629,7 +629,7 @@
       "name": "Envío de alimentos a Palestina",
       "description": "Enviamos alimentos a familias afectadas por la guerra en Palestina.",
       "type": "FOOD",
-      "date": "2024-04-20",
+      "date": "2025-12-19",
       "coordinates": {
         "latitude": 40.307891,
         "longitude": -3.672345
@@ -641,7 +641,7 @@
       "name": "Donación de medicamentos para Ucrania",
       "description": "Donamos medicamentos para ayudar a los afectados por el conflicto en Ucrania.",
       "type": "MEDICINES",
-      "date": "2024-04-20",
+      "date": "2025-12-19",
       "coordinates": {
         "latitude": 40.286789,
         "longitude": -3.721234
@@ -653,7 +653,7 @@
       "name": "Asistencia a refugiados palestinos",
       "description": "Brindamos asistencia y apoyo a refugiados palestinos desplazados por la guerra.",
       "type": "ACCOMMODATION",
-      "date": "2024-04-20",
+      "date": "2025-12-19",
       "coordinates": {
         "latitude": 40.317891,
         "longitude": -3.612345
@@ -665,7 +665,7 @@
       "name": "Ayuda médica en Ucrania",
       "description": "Proporcionamos atención médica a personas heridas por el conflicto en Ucrania.",
       "type": "MEDICINES",
-      "date": "2024-04-20",
+      "date": "2024-04-01",
       "coordinates": {
         "latitude": 40.313456,
         "longitude": -3.731234
@@ -677,7 +677,7 @@
       "name": "Apoyo psicológico en Gaza",
       "description": "Brindamos apoyo psicológico a personas afectadas por la guerra en Gaza y Palestina.",
       "type": "ACCOMMODATION",
-      "date": "2024-04-20",
+      "date": "2024-04-01",
       "coordinates": {
         "latitude": 40.368912,
         "longitude": -3.567891
@@ -689,7 +689,7 @@
       "name": "Ayuda humanitaria en Ucrania",
       "description": "Proporcionamos ayuda humanitaria a civiles afectados por el conflicto en Ucrania.",
       "type": "FOOD",
-      "date": "2024-04-20",
+      "date": "2024-04-01",
       "coordinates": {
         "latitude": 40.243456,
         "longitude": -3.691234
@@ -701,7 +701,7 @@
       "name": "Asistencia médica en Gaza",
       "description": "Brindamos asistencia médica a víctimas del conflicto en Gaza y Palestina.",
       "type": "MEDICINES",
-      "date": "2024-04-20",
+      "date": "2024-04-01",
       "coordinates": {
         "latitude": 40.301234,
         "longitude": -3.755678
@@ -713,7 +713,7 @@
       "name": "Refugio para desplazados en Ucrania",
       "description": "Ofrecemos refugio y asistencia a personas desplazadas por el conflicto en Ucrania.",
       "type": "ACCOMMODATION",
-      "date": "2024-04-20",
+      "date": "2024-04-01",
       "coordinates": {
         "latitude": 40.285432,
         "longitude": -3.784321
@@ -725,7 +725,7 @@
       "name": "Ayuda médica en la comunidad",
       "description": "Brindamos asistencia médica a personas necesitadas en la comunidad.",
       "type": "MEDICINES",
-      "date": "2024-04-20",
+      "date": "2025-04-01",
       "coordinates": {
         "latitude": 40.415,
         "longitude": -3.6712
@@ -737,7 +737,7 @@
       "name": "Entrega de alimentos a familias vulnerables",
       "description": "Distribuimos alimentos a familias en situación de vulnerabilidad.",
       "type": "FOOD",
-      "date": "2024-04-20",
+      "date": "2025-04-01",
       "coordinates": {
         "latitude": 40.4234,
         "longitude": -3.7311
@@ -749,7 +749,7 @@
       "name": "Apoyo a personas mayores",
       "description": "Proporcionamos compañía y asistencia a personas mayores.",
       "type": "ACCOMMODATION",
-      "date": "2024-04-20",
+      "date": "2025-04-01",
       "coordinates": {
         "latitude": 40.3921,
         "longitude": -3.6432
@@ -761,7 +761,7 @@
       "name": "Donación de ropa para niños",
       "description": "Recogemos y distribuimos ropa para niños de familias necesitadas.",
       "type": "CLOTHES",
-      "date": "2024-04-20",
+      "date": "2025-04-01",
       "coordinates": {
         "latitude": 40.391,
         "longitude": -3.7015
@@ -773,7 +773,7 @@
       "name": "Transporte para personas con discapacidad",
       "description": "Ofrecemos transporte adaptado para personas con discapacidad.",
       "type": "TRANSPORT",
-      "date": "2024-04-20",
+      "date": "2024-05-01",
       "coordinates": {
         "latitude": 40.3945,
         "longitude": -3.6843
@@ -785,7 +785,7 @@
       "name": "Asistencia médica en zonas rurales",
       "description": "Brindamos atención médica en áreas rurales de difícil acceso.",
       "type": "MEDICINES",
-      "date": "2024-04-20",
+      "date": "2024-05-01",
       "coordinates": {
         "latitude": 40.3823,
         "longitude": -3.7092
@@ -797,7 +797,7 @@
       "name": "Recolección de alimentos en supermercados",
       "description": "Recolectamos alimentos no perecederos en supermercados para distribuirlos entre familias necesitadas.",
       "type": "FOOD",
-      "date": "2024-04-20",
+      "date": "2024-05-01",
       "coordinates": {
         "latitude": 40.4021,
         "longitude": -3.7256
@@ -809,7 +809,7 @@
       "name": "Campaña de vacunación comunitaria",
       "description": "Realizamos una campaña de vacunación gratuita en la comunidad.",
       "type": "MEDICINES",
-      "date": "2024-04-20",
+      "date": "2024-05-08",
       "coordinates": {
         "latitude": 40.3867,
         "longitude": -3.6467
@@ -821,7 +821,7 @@
       "name": "Centro de acogida para mujeres maltratadas",
       "description": "Ofrecemos refugio y apoyo a mujeres maltratadas.",
       "type": "ACCOMMODATION",
-      "date": "2024-04-20",
+      "date": "2024-05-08",
       "coordinates": {
         "latitude": 40.389,
         "longitude": -3.7165
@@ -833,7 +833,7 @@
       "name": "Recaudación de fondos para refugiados",
       "description": "Organizamos eventos para recaudar fondos para refugiados.",
       "type": "ACCOMMODATION",
-      "date": "2024-04-20",
+      "date": "2024-05-08",
       "coordinates": {
         "latitude": 40.4112,
         "longitude": -3.6881
@@ -845,7 +845,7 @@
       "name": "Asistencia psicológica para jóvenes",
       "description": "Brindamos apoyo psicológico a jóvenes en situación de vulnerabilidad.",
       "type": "ACCOMMODATION",
-      "date": "2024-04-20",
+      "date": "2024-04-08",
       "coordinates": {
         "latitude": 40.384,
         "longitude": -3.7301
@@ -857,7 +857,7 @@
       "name": "Distribución de kits de higiene",
       "description": "Distribuimos kits de higiene a personas sin hogar.",
       "type": "MEDICINES",
-      "date": "2024-04-20",
+      "date": "2024-04-08",
       "coordinates": {
         "latitude": 40.402,
         "longitude": -3.6728
@@ -869,7 +869,7 @@
       "name": "Clases de alfabetización para inmigrantes",
       "description": "Impartimos clases de alfabetización para inmigrantes.",
       "type": "ACCOMMODATION",
-      "date": "2024-04-20",
+      "date": "2024-04-08",
       "coordinates": {
         "latitude": 40.393,
         "longitude": -3.7129
@@ -881,7 +881,7 @@
       "name": "Recogida de donaciones para niños necesitados",
       "description": "Recogemos donaciones para niños necesitados.",
       "type": "CLOTHES",
-      "date": "2024-04-20",
+      "date": "2024-04-08",
       "coordinates": {
         "latitude": 40.398,
         "longitude": -3.6867
@@ -893,7 +893,7 @@
       "name": "Entrega de juguetes en Navidad",
       "description": "Entregamos juguetes a niños de familias desfavorecidas en Navidad.",
       "type": "ACCOMMODATION",
-      "date": "2024-04-20",
+      "date": "2024-04-08",
       "coordinates": {
         "latitude": 40.3805,
         "longitude": -3.7194
@@ -905,7 +905,7 @@
       "name": "Programa de inserción laboral para jóvenes",
       "description": "Ofrecemos programas de formación e inserción laboral para jóvenes desempleados.",
       "type": "TRANSPORT",
-      "date": "2024-04-20",
+      "date": "2024-04-08",
       "coordinates": {
         "latitude": 40.3846,
         "longitude": -3.6592
@@ -917,7 +917,7 @@
       "name": "Voluntariado en residencias de ancianos",
       "description": "Realizamos actividades de voluntariado en residencias de ancianos.",
       "type": "ACCOMMODATION",
-      "date": "2024-04-20",
+      "date": "2024-04-08",
       "coordinates": {
         "latitude": 40.3923,
         "longitude": -3.7031
@@ -929,7 +929,7 @@
       "name": "Entrega de material escolar",
       "description": "Entregamos material escolar a niños de familias con recursos limitados.",
       "type": "CLOTHES",
-      "date": "2024-04-20",
+      "date": "2024-04-08",
       "coordinates": {
         "latitude": 40.4021,
         "longitude": -3.6645
@@ -941,7 +941,7 @@
       "name": "Talleres de habilidades sociales para personas sin hogar",
       "description": "Impartimos talleres de habilidades sociales para personas sin hogar.",
       "type": "ACCOMMODATION",
-      "date": "2024-04-20",
+      "date": "2024-04-08",
       "coordinates": {
         "latitude": 40.3968,
         "longitude": -3.6901
@@ -953,7 +953,7 @@
       "name": "Campaña de recogida de juguetes",
       "description": "Organizamos una campaña de recogida de juguetes para niños desfavorecidos.",
       "type": "ACCOMMODATION",
-      "date": "2024-04-20",
+      "date": "2024-04-08",
       "coordinates": {
         "latitude": 40.3912,
         "longitude": -3.6978
@@ -965,7 +965,7 @@
       "name": "Reparto de alimentos a familias necesitadas",
       "description": "Distribuimos alimentos a familias necesitadas en la comunidad.",
       "type": "FOOD",
-      "date": "2024-04-20",
+      "date": "2024-04-08",
       "coordinates": {
         "latitude": 40.4125,
         "longitude": -3.6964
@@ -977,7 +977,7 @@
       "name": "Apoyo psicológico para víctimas de violencia doméstica",
       "description": "Brindamos apoyo psicológico a víctimas de violencia doméstica.",
       "type": "ACCOMMODATION",
-      "date": "2024-04-20",
+      "date": "2024-04-08",
       "coordinates": {
         "latitude": 40.4213,
         "longitude": -3.7056
@@ -989,7 +989,7 @@
       "name": "Distribución de mantas para personas sin hogar",
       "description": "Distribuimos mantas para personas sin hogar durante el invierno.",
       "type": "CLOTHES",
-      "date": "2024-04-20",
+      "date": "2024-04-08",
       "coordinates": {
         "latitude": 40.4142,
         "longitude": -3.6987
@@ -1001,7 +1001,7 @@
       "name": "Entrega de medicamentos a ancianos",
       "description": "Entregamos medicamentos a ancianos que tienen dificultades para desplazarse.",
       "type": "MEDICINES",
-      "date": "2024-04-20",
+      "date": "2024-04-08",
       "coordinates": {
         "latitude": 40.4156,
         "longitude": -3.6889
@@ -1013,7 +1013,7 @@
       "name": "Ayuda en la organización de eventos comunitarios",
       "description": "Brindamos apoyo en la organización de eventos para la comunidad.",
       "type": "ACCOMMODATION",
-      "date": "2024-04-20",
+      "date": "2024-05-08",
       "coordinates": {
         "latitude": 40.4198,
         "longitude": -3.7111
@@ -1025,7 +1025,7 @@
       "name": "Programa de educación ambiental",
       "description": "Realizamos actividades de concienciación sobre el cuidado del medio ambiente.",
       "type": "ACCOMMODATION",
-      "date": "2024-04-20",
+      "date": "2024-05-05",
       "coordinates": {
         "latitude": 40.4137,
         "longitude": -3.7054
@@ -1037,7 +1037,7 @@
       "name": "Clases de refuerzo escolar para niños",
       "description": "Impartimos clases de refuerzo escolar para niños con dificultades académicas.",
       "type": "ACCOMMODATION",
-      "date": "2024-04-20",
+      "date": "2024-05-05",
       "coordinates": {
         "latitude": 40.4095,
         "longitude": -3.6883
@@ -1049,7 +1049,7 @@
       "name": "Asesoramiento legal gratuito",
       "description": "Ofrecemos asesoramiento legal gratuito a personas de bajos recursos.",
       "type": "ACCOMMODATION",
-      "date": "2024-04-20",
+      "date": "2024-05-05",
       "coordinates": {
         "latitude": 40.4212,
         "longitude": -3.7045
@@ -1061,7 +1061,7 @@
       "name": "Talleres de manualidades para personas mayores",
       "description": "Realizamos talleres de manualidades para personas mayores.",
       "type": "ACCOMMODATION",
-      "date": "2024-04-20",
+      "date": "2024-05-05",
       "coordinates": {
         "latitude": 40.4163,
         "longitude": -3.7012
@@ -1073,7 +1073,7 @@
       "name": "Recolección de donaciones para refugiados",
       "description": "Recogemos donaciones para ayudar a refugiados en situación de crisis.",
       "type": "FOOD",
-      "date": "2024-04-20",
+      "date": "2024-05-05",
       "coordinates": {
         "latitude": 40.4101,
         "longitude": -3.6956
@@ -1085,7 +1085,7 @@
       "name": "Centro de acogida para jóvenes en riesgo",
       "description": "Ofrecemos refugio y apoyo a jóvenes en situación de riesgo.",
       "type": "ACCOMMODATION",
-      "date": "2024-04-20",
+      "date": "2024-05-05",
       "coordinates": {
         "latitude": 40.4205,
         "longitude": -3.6981
@@ -1097,7 +1097,7 @@
       "name": "Visitas a hospitales para niños enfermos",
       "description": "Realizamos visitas a hospitales para animar a niños enfermos.",
       "type": "MEDICINES",
-      "date": "2024-04-20",
+      "date": "2024-07-05",
       "coordinates": {
         "latitude": 40.4179,
         "longitude": -3.7078
@@ -1109,7 +1109,7 @@
       "name": "Distribución de juguetes en Navidad",
       "description": "Distribuimos juguetes a niños de familias con recursos limitados en Navidad.",
       "type": "CLOTHES",
-      "date": "2024-04-20",
+      "date": "2024-07-05",
       "coordinates": {
         "latitude": 40.415,
         "longitude": -3.6932
@@ -1121,7 +1121,7 @@
       "name": "Programa de integración para inmigrantes",
       "description": "Ofrecemos programas de integración para inmigrantes recién llegados.",
       "type": "ACCOMMODATION",
-      "date": "2024-04-20",
+      "date": "2024-07-05",
       "coordinates": {
         "latitude": 40.4123,
         "longitude": -3.7014
@@ -1133,7 +1133,7 @@
       "name": "Recogida de alimentos en supermercados",
       "description": "Recogemos alimentos en supermercados para distribuirlos entre familias necesitadas.",
       "type": "FOOD",
-      "date": "2024-04-20",
+      "date": "2024-07-05",
       "coordinates": {
         "latitude": 40.4221,
         "longitude": -3.6967
@@ -1145,7 +1145,7 @@
       "name": "Centro de atención para personas con discapacidad",
       "description": "Ofrecemos atención integral a personas con discapacidad y sus familias.",
       "type": "TRANSPORT",
-      "date": "2024-04-20",
+      "date": "2024-07-05",
       "coordinates": {
         "latitude": 40.4196,
         "longitude": -3.6894
@@ -1157,7 +1157,7 @@
       "name": "Entrega de material escolar para niños desfavorecidos",
       "description": "Entregamos material escolar a niños de familias desfavorecidas.",
       "type": "CLOTHES",
-      "date": "2024-04-20",
+      "date": "2024-07-05",
       "coordinates": {
         "latitude": 40.421,
         "longitude": -3.7012
@@ -1169,7 +1169,7 @@
       "name": "Clases de cocina saludable para familias",
       "description": "Impartimos clases de cocina saludable para familias de bajos recursos.",
       "type": "FOOD",
-      "date": "2024-04-20",
+      "date": "2024-07-05",
       "coordinates": {
         "latitude": 40.4175,
         "longitude": -3.7035
@@ -1181,7 +1181,7 @@
       "name": "Talleres de arte para personas con diversidad funcional",
       "description": "Realizamos talleres de arte adaptado para personas con diversidad funcional.",
       "type": "CLOTHES",
-      "date": "2024-04-20",
+      "date": "2024-07-05",
       "coordinates": {
         "latitude": 40.4127,
         "longitude": -3.6958
@@ -1193,7 +1193,7 @@
       "name": "Recogida de donaciones para refugios de animales",
       "description": "Recogemos donaciones para refugios de animales abandonados.",
       "type": "FOOD",
-      "date": "2024-04-20",
+      "date": "2024-07-05",
       "coordinates": {
         "latitude": 40.4182,
         "longitude": -3.7081
@@ -1205,7 +1205,7 @@
       "name": "Entrega de material escolar para niños necesitados",
       "description": "Entregamos material escolar a niños de familias necesitadas.",
       "type": "CLOTHES",
-      "date": "2024-04-20",
+      "date": "2024-07-22",
       "coordinates": {
           "latitude": 40.4168,
           "longitude": -3.6924
@@ -1217,7 +1217,7 @@
       "name": "Apoyo a personas mayores en residencias",
       "description": "Brindamos compañía y apoyo a personas mayores en residencias.",
       "type": "ACCOMMODATION",
-      "date": "2024-04-20",
+      "date": "2024-09-22",
       "coordinates": {
           "latitude": 40.4193,
           "longitude": -3.7001
@@ -1229,7 +1229,7 @@
       "name": "Programa de alimentación para familias vulnerables",
       "description": "Ofrecemos un programa de alimentación para familias en situación de vulnerabilidad.",
       "type": "FOOD",
-      "date": "2024-04-20",
+      "date": "2024-09-22",
       "coordinates": {
           "latitude": 40.4149,
           "longitude": -3.6957
@@ -1241,7 +1241,7 @@
       "name": "Talleres de costura para mujeres desempleadas",
       "description": "Impartimos talleres de costura para mujeres desempleadas.",
       "type": "CLOTHES",
-      "date": "2024-04-20",
+      "date": "2024-09-22",
       "coordinates": {
           "latitude": 40.4216,
           "longitude": -3.6998
@@ -1253,7 +1253,7 @@
       "name": "Asesoramiento para personas sin hogar",
       "description": "Brindamos asesoramiento legal y social para personas sin hogar.",
       "type": "ACCOMMODATION",
-      "date": "2024-04-20",
+      "date": "2024-09-22",
       "coordinates": {
           "latitude": 40.4132,
           "longitude": -3.7053
@@ -1265,7 +1265,7 @@
       "name": "Recogida de donaciones para bancos de alimentos",
       "description": "Recogemos donaciones para bancos de alimentos que ayudan a familias necesitadas.",
       "type": "FOOD",
-      "date": "2024-04-20",
+      "date": "2024-09-22",
       "coordinates": {
           "latitude": 40.4174,
           "longitude": -3.6969
@@ -1277,7 +1277,7 @@
       "name": "Visitas a hospitales para personas enfermas",
       "description": "Realizamos visitas a hospitales para acompañar a personas enfermas.",
       "type": "MEDICINES",
-      "date": "2024-04-20",
+      "date": "2024-09-22",
       "coordinates": {
           "latitude": 40.4211,
           "longitude": -3.7031
@@ -1289,7 +1289,7 @@
       "name": "Entrega de ropa de abrigo para personas sin hogar",
       "description": "Entregamos ropa de abrigo para personas sin hogar durante el invierno.",
       "type": "CLOTHES",
-      "date": "2024-04-20",
+      "date": "2024-11-22",
       "coordinates": {
           "latitude": 40.4159,
           "longitude": -3.6912
@@ -1301,7 +1301,7 @@
       "name": "Apoyo emocional para víctimas de violencia de género",
       "description": "Brindamos apoyo emocional y asesoramiento legal para víctimas de violencia de género.",
       "type": "ACCOMMODATION",
-      "date": "2024-04-20",
+      "date": "2024-11-22",
       "coordinates": {
           "latitude": 40.4202,
           "longitude": -3.7015
@@ -1313,7 +1313,7 @@
       "name": "Recogida de juguetes para niños desfavorecidos",
       "description": "Recogemos juguetes para niños de familias con recursos limitados.",
       "type": "CLOTHES",
-      "date": "2024-04-20",
+      "date": "2024-11-20",
       "coordinates": {
           "latitude": 40.4123,
           "longitude": -3.6981
@@ -1325,7 +1325,7 @@
       "name": "Voluntariado en centros de atención a personas con discapacidad",
       "description": "Realizamos actividades de voluntariado en centros de atención a personas con discapacidad.",
       "type": "TRANSPORT",
-      "date": "2024-04-20",
+      "date": "2024-11-20",
       "coordinates": {
           "latitude": 40.4187,
           "longitude": -3.6972
@@ -1337,7 +1337,7 @@
       "name": "Asistencia médica en zonas rurales",
       "description": "Brindamos atención médica en áreas rurales de difícil acceso.",
       "type": "MEDICINES",
-      "date": "2024-04-20",
+      "date": "2024-11-20",
       "coordinates": {
           "latitude": 40.4195,
           "longitude": -3.6909
@@ -1349,7 +1349,7 @@
       "name": "Entrega de paquetes de alimentos para familias necesitadas",
       "description": "Entregamos paquetes de alimentos básicos a familias necesitadas.",
       "type": "FOOD",
-      "date": "2024-04-20",
+      "date": "2024-11-20",
       "coordinates": {
           "latitude": 40.4129,
           "longitude": -3.6945
@@ -1361,7 +1361,7 @@
       "name": "Programa de inserción laboral para personas en riesgo de exclusión",
       "description": "Ofrecemos programas de formación e inserción laboral para personas en riesgo de exclusión social.",
       "type": "ACCOMMODATION",
-      "date": "2024-04-20",
+      "date": "2024-11-20",
       "coordinates": {
           "latitude": 40.4201,
           "longitude": -3.6996
@@ -1373,7 +1373,7 @@
       "name": "Talleres de educación financiera para jóvenes",
       "description": "Impartimos talleres de educación financiera para jóvenes que buscan independizarse.",
       "type": "CLOTHES",
-      "date": "2024-04-20",
+      "date": "2024-11-20",
       "coordinates": {
           "latitude": 40.4156,
           "longitude": -3.6982
@@ -1385,7 +1385,7 @@
       "name": "Entrega de productos de higiene personal",
       "description": "Entregamos productos de higiene personal a personas en situación de vulnerabilidad.",
       "type": "MEDICINES",
-      "date": "2024-04-20",
+      "date": "2024-11-20",
       "coordinates": {
           "latitude": 40.4218,
           "longitude": -3.7009
@@ -1397,7 +1397,7 @@
       "name": "Programa de acompañamiento para personas mayores",
       "description": "Ofrecemos programas de acompañamiento para personas mayores que viven solas.",
       "type": "ACCOMMODATION",
-      "date": "2024-04-20",
+      "date": "2024-11-20",
       "coordinates": {
           "latitude": 40.4134,
           "longitude": -3.7051
@@ -1409,7 +1409,7 @@
       "name": "Campaña de sensibilización sobre el cuidado del medio ambiente",
       "description": "Realizamos una campaña de sensibilización sobre el cuidado del medio ambiente.",
       "type": "ACCOMMODATION",
-      "date": "2024-04-20",
+      "date": "2024-07-20",
       "coordinates": {
           "latitude": 40.4163,
           "longitude": -3.7007
@@ -1421,7 +1421,7 @@
       "name": "Recogida de alimentos frescos para bancos de alimentos",
       "description": "Recogemos alimentos frescos para distribuir en bancos de alimentos.",
       "type": "FOOD",
-      "date": "2024-04-20",
+      "date": "2024-07-27",
       "coordinates": {
           "latitude": 40.4209,
           "longitude": -3.6963
@@ -1433,7 +1433,7 @@
       "name": "Talleres de música para jóvenes en riesgo de exclusión",
       "description": "Impartimos talleres de música para jóvenes en riesgo de exclusión social.",
       "type": "CLOTHES",
-      "date": "2024-04-20",
+      "date": "2024-07-27",
       "coordinates": {
           "latitude": 40.4147,
           "longitude": -3.6928

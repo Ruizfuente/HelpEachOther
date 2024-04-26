@@ -67,9 +67,9 @@
             <h1 class="heading-1">Some of our services</h1>
 
             <div class="container-options">
-                <span class="active">Outstanding</span>
-                <span>Más recent</span>
-                <span>Most demanded</span>
+                <span [ngClass]="selectedOptionServices === 1 ?  'active' : ''" (click)="toggleSelectedOptionServices(1)">Outstanding</span>
+                <span [ngClass]="selectedOptionServices === 2 ?  'active' : ''" (click)="toggleSelectedOptionServices(2)">Most recent</span>
+                <span [ngClass]="selectedOptionServices === 3 ?  'active' : ''" (click)="toggleSelectedOptionServices(3)">Most demanded</span>
             </div>
 
             <div class="container container-examples">
@@ -81,8 +81,8 @@
                         <p class="small mb-0">
                             <img style="max-width: 40px;" src="assets/icons/map-pin/{{place.type}}.png" alt="">
                             <span class="mx-2">|</span> Creado por
-                            <strong>({{getUser(place.user_id).name}})</strong>
-                            el {{place.date}}
+                            <strong>({{getUser(place.user_id).name}})</strong><br>
+                            {{place.date}}
                             <br>
                             {{place.description}}
                         </p>
