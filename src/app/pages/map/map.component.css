@@ -2,6 +2,10 @@
 #map { 
     height: 550px;
     width: 100%;
+    z-index: 1;
+}
+.map-page-body{
+    padding: 1rem;
 }
 .place-item{
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
