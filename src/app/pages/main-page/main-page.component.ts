@@ -13,10 +13,9 @@ import { Router } from '@angular/router';
   standalone: true,
   imports: [CommonModule],
   templateUrl: './main-page.component.html',
-  styleUrl: './main-page.component.css'
+  styleUrl: './main-page.component.css',
 })
 export class MainPageComponent {
-
   public _placeTypes = PlaceTypes;
   // public _AppRoutes = AppRoutes;
   public placesToShowAll: Place[] = [];
@@ -28,25 +27,30 @@ export class MainPageComponent {
     private usuariosService: UsuariosService,
     private router: Router
   ) {
-    this.placesToShowAll = this.placesService.getAllValidPlaces(5, 40.4177, -3.7042);
-    this.placesToShow = this.placesToShowAll.slice(0, 15);;
+    this.placesToShowAll = this.placesService.getAllValidPlaces(
+      5,
+      40.4177,
+      -3.7042
+    );
+    this.placesToShow = this.placesToShowAll.slice(0, 12);
   }
-
 
   getUser(id: number): User {
     return this.usuariosService.getUserById(id);
-  };
+  }
 
   navigateOnClick(route: string) {
     this.router.navigate([route]);
   }
   toggleSelectedOptionServices(selectedOption: number) {
-    if(selectedOption != this.selectedOptionServices){
+    if (selectedOption != this.selectedOptionServices) {
       this.selectedOptionServices = selectedOption;
-      debugger
+      debugger;
       let placesToShowAllCopyByValue = this.placesToShowAll.slice();
       if (selectedOption == 2) {
-        this.placesToShow = placesToShowAllCopyByValue.sort((a, b) => (a.date < b.date) ? 1 : -1).slice(0, 15);
+        this.placesToShow = placesToShowAllCopyByValue
+          .sort((a, b) => (a.date < b.date ? 1 : -1))
+          .slice(0, 15);
       } else if (selectedOption == 1) {
         this.placesToShow = placesToShowAllCopyByValue.slice(0, 15);
       } else if (selectedOption == 3) {
