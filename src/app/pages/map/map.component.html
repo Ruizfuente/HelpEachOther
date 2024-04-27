@@ -1,22 +1,6 @@
 <div class="map-page-body">
 
   <div class="row">
-    
-    <!-- <div class="card m-5"  *ngFor="let place of placesToShow" >
-      <img class="card-img-top" style="max-width: 100px; border-radius: 90%;" src="./../../../assets/profile_pictures/image-{{place.user_id}}.png" alt="Card image cap">
-        <div class="card-body">
-            <h5 class="card-title">{{place.name}}</h5>
-            <p class="card-text">{{place.description}}</p>
-          </div>
-        <ul class="list-group list-group-flush">
-            <li class="list-group-item">{{place.date}}</li>
-            <li class="list-group-item">Dapibus ac facilisis in</li>
-          </ul>
-        <div class="card-body">
-            <a href="#" class="card-link">Card link</a>
-            <a href="#" class="card-link">Another link</a>
-        </div>
-    </div> -->
   <div class="col-5 places-container">
     <div class="container py-5 h-100">
       <div class="row d-flex justify-content-center h-100">
@@ -28,7 +12,6 @@
               <p class="small mb-0">
                 <img style="max-width: 40px;" src="assets/icons/map-pin/{{place.type}}.png" alt="">
                 <span class="mx-2">|</span> Creado por
-                <!-- (hay que hacer el join con el id de usuario al json de users) -->
                 <strong>({{getUser(place.user_id).name}})</strong>
                 el {{place.date}}
                 <br>
@@ -58,10 +41,4 @@
   </div>
   
 </div>
-
-<!-- <leaflet-locate-control 
-  [map]="map" 
-  [options]="locateOptions"
-  (location$)="onNewLocation($event)">
-</leaflet-locate-control> -->
 </div>
